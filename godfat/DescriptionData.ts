@@ -20,7 +20,13 @@ export default class DescriptionData {
     for (const index in data) {
       const item = data[index];
       if (parseInt(index) % 2 == 0) {
-        names.push(item.replaceAll("’", "'").split(" - ")[0]);
+        const name = item
+          .replaceAll("’", "'")
+          .split(" - ")[0]
+          .replace(/\(.*?\)/, "") // The case for Busters
+          .trim();
+
+        names.push(name);
       } else {
         const [, realName] = item.match(new RegExp(".*/(.*)_\\(.*?\\)"));
         this.fullNames.push(

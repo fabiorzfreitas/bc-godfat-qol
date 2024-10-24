@@ -2,7 +2,7 @@
 // @name        Battle Cats GodFat QoL Tools
 // @description Injects a lot of useful information to bc.godfat.org seed tracker
 // @namespace   https://github.com/vtvz/bc-godfat-qol
-// @version     2.10.0
+// @version     2.11.0
 // @match       https://bc.godfat.org/*
 // @author      vtvz
 // @updateURL   https://raw.githubusercontent.com/vtvz/bc-godfat-qol/master/dist/godfat.user.js
@@ -63,7 +63,12 @@ class DescriptionData {
         for (const index in data) {
             const item = data[index];
             if (parseInt(index) % 2 == 0) {
-                names.push(item.replaceAll("’", "'").split(" - ")[0]);
+                const name = item
+                    .replaceAll("’", "'")
+                    .split(" - ")[0]
+                    .replace(/\(.*?\)/, "") // The case for Busters
+                    .trim();
+                names.push(name);
             }
             else {
                 const [, realName] = item.match(new RegExp(".*/(.*)_\\(.*?\\)"));
@@ -115,7 +120,15 @@ class HtmlInjector {
       <details>
 	      <summary>Sources</summary>
         <ul>
-          <li><a href="https://docs.google.com/document/u/0/d/10jGnHCqKcaVoQ6uPxohy57YKhQUjo20H_ddVXzSot3I">Tier Lists</a></li>
+          <li>
+            <a href="https://docs.google.com/document/u/0/d/10jGnHCqKcaVoQ6uPxohy57YKhQUjo20H_ddVXzSot3I">Tier Lists</a>
+
+            <ul>
+              <li>
+                <a href="https://docs.google.com/document/d/183G17wJFQL8Ur3AjXEPWZiuhTJBbPwKY7G54pb4htig/edit?tab=t.0">Synced with 10/17/24 doc update</a>
+              </li>
+            </ul>
+          </li>
           <li><a href="https://imgur.com/a/np-charts-9rAfl93">NP Charts</a></li>
         </ul>
       </details>
@@ -1332,9 +1345,8 @@ const data = [
     "https://battle-cats.fandom.com/wiki/Summoner_Satoru_(Uber_Rare_Cat)",
     "Tengu - Fairly generic mid ranger that has a good amount of abilities from strong vs red/ angel, wave immune, and strengthen. Cheap and an overall solid option to combat red and angel, notably useful for being a direct counter to Exiel and viability in Baron Seal due to his colossus slayer and wave immunity.",
     "https://battle-cats.fandom.com/wiki/Cat_Tengu_(Uber_Rare_Cat)",
-    "Dinosaur - A strong specialist sniper who deals extremely high piercing DPS against Angels. Has an all round well built kit with good HP, good KB count, and good cooldown. However, he struggles in having an unsafe standing range which considerably lowers general usage and can’t reliably counter higher ranged Angels without the help of peons or a stepping stone. Offers good control from his multi hit + LD attack with a summoner that synergizes well with his sniper kit but can interfere with his short cooldown.",
-    // NOTE: PATCH added link as a new line
-    "https://battle-cats.fandom.com/wiki/Dinosaur_(Uber_Rare_Cat)",
+    "Dynasaurus - A strong specialist sniper who deals extremely high piercing DPS against Angels. Has an all round well built kit with good HP, good KB count, and good cooldown. However, he struggles in having an unsafe standing range which considerably lowers general usage and can’t reliably counter higher ranged Angels without the help of peons or a stepping stone. Offers good control from his multi hit + LD attack with a summoner that synergizes well with his sniper kit but can interfere with his short cooldown.",
+    "https://battlecats.miraheze.org/wiki/Dynasaurus_Cat_(Uber_Rare_Cat)",
     "Momoco - Has wide wave attacks with high DPS and strong freeze procs against red, black, and angel, especially with the field wide wave attacks. Can deal good chip damage overtime with the wave, especially if a stepping stone is present. Struggles with survivability and has multi hits which can potentially make her miss attacks.",
     "https://battle-cats.fandom.com/wiki/Wonder_MOMOCO_(Legend_Rare_Cat)",
     "Yukimura - One of the best kamikaze rushers in the game. At max level, he exceeds the power of Awakened Bahamut when completely maxed in damage, HP, speed, cost, and cooldown. Extremely high mobility and safe uber that yields high reward. Also carries massive damage to blacks to completely decimate a trait, being best used as a unit that can take out a specific black enemy on the field or rebound constantly to handle a larger crowd. Only struggles against stages that may ward off kamikaze units, though that is rare to find due to Yukimura’s build and how speed can infiltrate most enemies.",
@@ -1428,6 +1440,8 @@ const data = [
     "https://battle-cats.fandom.com/wiki/Shitakiri_Sparrow_(Uber_Rare_Cat)",
     "Issun Boshi - A kamikaze rusher with incredibly high speed, good cooldown, and cheap cost. Has very strong burst against angel and traitless along with omni range to increase attack accuracy. Being cheap and fast allows him to get value easily and deal huge damage to big angel/ traitless or kill medium sized foes. Has bad damage against non angel/ traitless, needs heavy boost in order to be viable as a generalist. You also get extra cool points by using Issun alongside Amaterasu.",
     "https://battle-cats.fandom.com/wiki/Issun_Boshi_(Uber_Rare_Cat)",
+    "Hanasaka - Subpar frontliner tanker with extremely high HP but with non-optimal targeting, poor offense and okay mobility. Carries an awkward multi hit with unreliable freeze procs at a short range. Horrid DPS and inability to land damage on second hit means unviable usage in the offensive department. Primarily used as a sponge tank against Zombies and Angels, with one of the highest effective HP among any uber in both traits. His usage as a defensive wall is situational in combating unconventional enemies, but even then most of his value is covered by Ramen and Shigong who are meatshields with better effectiveness vs Angel/ Zombie while being far more viable on mixed stages.",
+    "https://battlecats.miraheze.org/wiki/Hanasaka_Cat_(Uber_Rare_Cat)",
     "Ushiwakamaru - Another one of the best anti angels in the game, he is a designated specialist who carries extraordinary strats, deleting angels being his main function. He’s a spammable AOE attacker in first form who carries high bulk and insane cost efficiency that’s already enough to shut down most angels, but his evolved form becomes an incredibly powerful nuker who can kill the majority of angel enemies in just a few hits while having super high bulk thanks to the resist. His evolved form is also a fairly solid generalist.",
     "https://battle-cats.fandom.com/wiki/Ushiwakamaru_(Legend_Rare_Cat)",
     "Akira - An extremely powerful mid ranger/ sniper that has solid DPS with a very powerful surge for wide attack coverage. Can deal high damage in a large field, allowing him to clear peons, hit oncoming enemies, or snipe backliners. His frontliner DPS is also quite solid, being a fairly decent mid ranger with very strong DPS especially when strengthened. Speaking of, he has a large quantity of good abilities such as strong and freeze against alien and aku, giving him a powerful niche against both on top of the surge which makes him one of the best anti alien/ aku ubers out there. Lastly, he carries other abilities such as weaken, wave immune, strengthen, and lethal strike to further expand his usage and give him more quality. Suffers from having a slightly sluggish foreswing with no initial piercing.",
@@ -1589,6 +1603,16 @@ const data = [
     "https://battle-cats.fandom.com/wiki/Black_Zeus_(Legend_Rare_Cat)",
     "Gundros - High ranged heavy nuker with super backliner range and gargantuan damage against aliens and blacks. Deals one of the highest singular nuke damage against his targets compared to most other alien and black nukers while offering high effective DPS. However, his damage is insanely limited due to his poor mobility, long attack rate, and carrying the third longest foreswing out of any cat unit. This forces Gundros to be used in a highly risky play style known as bait-and-punish where you lure enemies into his range and nuke them. This causes Gundros to have bad flexibility and very poor synergy with other units, but in return has the potential to completely obliterate a targeted alien/ black, with alien being the more relevant target for his build.",
     "https://battle-cats.fandom.com/wiki/Gunduros_(Uber_Rare_Cat)",
+    "Pai-Pai (Red Busters) - An extremely powerful anti-Red specialist who carries high defense and offense against Red enemies. She has a mix of high HP, huge damage per hit, and tons of DPS thanks to the combination of massive damage and resistance against Reds. She can counter nearly every Red enemy thanks to her high effective stats, especially combined with her strong mobility through her cooldown and movement speed. She is mediocre as a generalist and suffers from some slight speed clipping issues.",
+    "https://battlecats.miraheze.org/wiki/Pai-Pai_(Uber_Rare_Cat)",
+    "Rei (Air Busters) - An extremely powerful anti-Floating specialist who carries high defense and offense against Floating enemies. She has a mix of high HP, huge damage per hit, and tons of DPS thanks to the combination of massive damage and resistance against Floating. She can counter nearly every Floating enemy thanks to her high effective stats, especially combined with her strong mobility through her cooldown and movement speed. She is mediocre as a generalist and suffers from some speed clipping issues.",
+    "https://battlecats.miraheze.org/wiki/Strike_Unit_R.E.I._(Uber_Rare_Cat)",
+    "Sakura (Metal Busters) - A powerful multi-purpose anti Metal who is most well known for her reliable slow and weaken procs against Metal enemies which are both guaranteed and carry good uptime. She carries a small chance to unleash a devastating critical attack powerful enough to one shot every Metal enemy in the game. Her crit potential rises through her 2 critical up combos which increases her own crit chance as well as for any other crit unit on your team. Combined with her procs and good mobility, she is one of the best units to synergize with already meta crit units such as Catasaurus and Cameraman, providing one of the strongest anti-Metal synergies compared to most other anti-Metal units. Her anti-Wave/ Surge abilities expand on her general capabilities which gives her a slight edge compared to other anti-Metal ubers in having very strong performance on mixed stages rather than strict usage on pure Metal stages.",
+    "https://battlecats.miraheze.org/wiki/Sakura_Sonic_(Uber_Rare_Cat)",
+    "Emma (Wave Busters) - A surprisingly powerful melee/ support/ rusher who carries a multitude of functions within her kit. She has extremely high HP with a large KB count, which initially limits her durability but allows her to reposition behind meatshields often. Her support capabilities through her weaken procs heavily elevate her durability, especially on higher levels/ boost. Her weaken carries strong synergy with most other units in the game due to occurring at high proc rates and being able to reach far with her wave spam attacks, increasing the survivability of your whole team. Her mobility is also quite strong with her fast 30 speed, decent cooldown, and decent cost which are viable for rushing especially alongside other rushers which benefit greatly from her weaken procs. Is capable of Wave blocking roughly as well as Octopus, but still has vulnerability in waves slipping through her during her KB animation. Also carries mediocre damage output.",
+    "https://battlecats.miraheze.org/wiki/Hell_Warden_Emma_(Uber_Rare_Cat)",
+    "Sirius (Colossus Busters) - Top end backliner who carries a powerful anti-traited kit while being unique through her fast cooldown and huge array of debuff immunities. Her overall stats are comparable to attackers such as Gao, utilizing the same strong against traited ability to deliver good offense and high bulk against traited enemies. She carries positive aspects such as good damage per hit, high DPS, good attack rate, and a good amount of chances to reposition. Her most unique quality is cooldown, which is absurdly fast for her stats and role. Stacking 2 Sirius becomes easy, with double Sirius being capable of slicing down most stages that reach such a point. Her wide array of immunities including Curse and Toxic immunity further improve her longevity and dominance as a backliner, synergizing well with her high bulk. Her signature colossus slayer alongside high general stats allows her to counter nearly every Baron gauntlet in the game. Has a slight inconsistency with her attack being multi hit and landing at different locations, but has a big enough of an attack overlap to consistently dish out maximum offense.",
+    "https://battlecats.miraheze.org/wiki/Goddess_of_Light_Sirius_(Uber_Rare_Cat)",
 ];
 exports.default = data;
 
@@ -1689,20 +1713,20 @@ exports.default = npChart;
 // ^v$hS"A,Jj
 // Wram and join with Fest prefix
 // ^v$hS"A,_A^aFest-j
-// Numeric
-// :s/\(\d*\)\. \(.*\)/"Ban-\1 - \2",
+/*
+Numeric
+
+:s/\(\d*\)\. \(.*\)/"Ban-\1 - \2"<CR>Jj
+*/
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.tierListRaw = void 0;
-// update 9/29/24
-// based on https://docs.google.com/document/u/0/d/10jGnHCqKcaVoQ6uPxohy57YKhQUjo20H_ddVXzSot3I
-// update doc https://docs.google.com/document/d/183G17wJFQL8Ur3AjXEPWZiuhTJBbPwKY7G54pb4htig
 exports.tierListRaw = [
     [
-        "S - Balrog, Lasvoss, Baby Cat (UF), Yukimura, Keiji, Kuu (UT), Windy (UF), Kalisa, Daliasan, Dioramos (UT), Akira (UT), Saki, Vigler, Chronos, Poseidon, Ganesha (UT), Anubis (UT), Amaterasu, Ganesha, Siege (UF), Tecoluga",
-        "A - Baby Cat, Ice (UT), Satoru, Shingen (UT), Kai, Coppermine (UT), Lilin, Kasa Jizo, Ushiwakamaru, Sarukani, Kintaro, Momotaro (UT), Momotaro, Thunder Jack, Warlock (UT), Catman, Aphrodite (UT), Lucifer, Aphrodite, Hades, Gaia, Deth Troy, Aethur, Thermae, Muu, Lumina, Nanaho, Kanna, Himeyuri (UT), Himeyuri, Balaluga, Asiluga",
-        "B - Momoco, Ice, Dynasaurus, Cat Machine (UT), Cat Machine, Akechi, Shingen, Kenshin, Amakusa, Hanzo, Jeanne, Windy, Thundia, Twinstars, Terun, Ganglion, Hevijak, Issun, Gamereon, Cosmo, Shitakiri, Kaguya (UF), Warlock, Hayabusa, Prof Abyss, Mekako, White Rabbit (UF), Aset, Drednot, Rekon Korps, Bora, Gravi, Yamii, Ruri (UT), Ruri, Reika",
+        "S - Balrog, Lasvoss, Baby Cat (UF), Yukimura, Keiji, Kuu (UT), Windy (UF), Kalisa, Daliasan, Dioramos (UT), Akira (UT), Saki, Vigler, Chronos, Poseidon, Ganesha (UT), Anubis (UT), Amaterasu, Ganesha, Siege (UF), Gravi, Tecoluga",
+        "A - Baby Cat, Ice (UT), Satoru, Shingen (UT), Kenshin (UF), Hanzo, Kai, Coppermine (UT), Lilin, Kasa Jizo, Ushiwakamaru, Sarukani, Kintaro, Momotaro (UT), Momotaro, Thunder Jack, Warlock (UT), Catman, Aphrodite (UT), Lucifer, Aphrodite, Hades, Gaia, Deth Troy, Aethur, Thermae, Muu, Lumina, Nanaho, Kanna, Himeyuri (UT), Himeyuri, Balaluga, Asiluga",
+        "B - Momoco, Ice, Dynasaurus, Cat Machine (UT), Cat Machine, Akechi, Shingen, Kenshin, Amakusa, Jeanne, Windy, Thundia, Twinstars, Terun, Ganglion, Hevijak, Issun, Gamereon, Cosmo, Shitakiri, Kaguya (UF), Warlock, Hayabusa, Prof Abyss, Mekako (UT), Mekako, White Rabbit (UF), Aset, Drednot, Rekon Korps, Bora, Yamii, Ruri (UT), Ruri, Reika",
         "C - Paladin, Tengu, Musashi, Yoshimoto, Oda (UF), Gunduros, Raiden (UT), Raiden, Dioramos, Babel, Kachi Kachi (UT), Kachi Kachi, Kaguya, Cyclops, Akira, Anubis, Bomburr, Volta, Aer (UF), Vega, Deale, Shishilan, Kubiluga, Furiluga",
-        "D - Nurse (UT), Nurse, Kaihime, Masamune (UT), Masamune, Kuu, Pegasa, Vars, Gladios, Kamukura (UT), Kamukura, Megidora (UT), Zeus (UT), Zeus, Blizana, Mizli, Tetsukachi, Tomoe, Legeluga, Kaoluga, Nekoluga (UT)",
+        "D - Nurse (UT), Nurse, Kaihime, Masamune (UT), Masamune, Kuu, Pegasa, Vars, Gladios, Kamukura (UT), Kamukura, Megidora (UT), Hanasaka, Zeus (UT), Zeus, Blizana, Mizli, Tetsukachi, Tomoe, Legeluga, Kaoluga, Nekoluga (UT)",
         "E - Cat Clan Heroes, Coppermine, Megidora, Sodom, White Rabbit, Sphinx Korps, Siege, Aer, Verbena, Nekoluga",
         "F - Oda, Myrcia, Envanz, Nobiluga, Papaluga",
     ],
@@ -1717,6 +1741,17 @@ exports.tierListRaw = [
         "TOP-8 - Yukimura",
         "TOP-9 - Lasvoss",
         "TOP-10 - Chronos",
+    ],
+    [
+        "S - Sirius",
+        "A - Emma",
+        "B - Pai-Pai, Rei, Sakura (UF)",
+        "C - Sakura",
+        "Ban-1 - Sirius",
+        "Ban-2 - Emma",
+        "Ban-3 - Pai-Pai",
+        "Ban-4 - Rei",
+        "Ban-5 - Sakura",
     ],
     [
         "S - Izanagi",
@@ -1904,9 +1939,9 @@ exports.tierListRaw = [
         "Ban-2 - Dioramos",
         "Ban-3 - Hevijak",
         "Ban-4 - Ganglion",
-        "Ban-5 - Raiden",
-        "Ban-6 - Gunduros",
-        "Ban-7 - Babel",
+        "Ban-5 - Gunduros",
+        "Ban-6 - Babel",
+        "Ban-7 - Raiden",
         "Ban-8 - Gladios",
         "Ban-9 - Vars",
         "Ban-10 - Kamukura",

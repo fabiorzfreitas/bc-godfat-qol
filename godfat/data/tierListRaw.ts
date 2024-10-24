@@ -2,20 +2,19 @@
 // ^v$hS"A,Jj
 // Wram and join with Fest prefix
 // ^v$hS"A,_A^aFest-j
-// Numeric
-// :s/\(\d*\)\. \(.*\)/"Ban-\1 - \2",
+/*
+Numeric
 
-// update 9/29/24
-// based on https://docs.google.com/document/u/0/d/10jGnHCqKcaVoQ6uPxohy57YKhQUjo20H_ddVXzSot3I
-// update doc https://docs.google.com/document/d/183G17wJFQL8Ur3AjXEPWZiuhTJBbPwKY7G54pb4htig
+:s/\(\d*\)\. \(.*\)/"Ban-\1 - \2"<CR>Jj
+*/
 
 export const tierListRaw: string[][] = [
   [
-    "S - Balrog, Lasvoss, Baby Cat (UF), Yukimura, Keiji, Kuu (UT), Windy (UF), Kalisa, Daliasan, Dioramos (UT), Akira (UT), Saki, Vigler, Chronos, Poseidon, Ganesha (UT), Anubis (UT), Amaterasu, Ganesha, Siege (UF), Tecoluga",
-    "A - Baby Cat, Ice (UT), Satoru, Shingen (UT), Kai, Coppermine (UT), Lilin, Kasa Jizo, Ushiwakamaru, Sarukani, Kintaro, Momotaro (UT), Momotaro, Thunder Jack, Warlock (UT), Catman, Aphrodite (UT), Lucifer, Aphrodite, Hades, Gaia, Deth Troy, Aethur, Thermae, Muu, Lumina, Nanaho, Kanna, Himeyuri (UT), Himeyuri, Balaluga, Asiluga",
-    "B - Momoco, Ice, Dynasaurus, Cat Machine (UT), Cat Machine, Akechi, Shingen, Kenshin, Amakusa, Hanzo, Jeanne, Windy, Thundia, Twinstars, Terun, Ganglion, Hevijak, Issun, Gamereon, Cosmo, Shitakiri, Kaguya (UF), Warlock, Hayabusa, Prof Abyss, Mekako, White Rabbit (UF), Aset, Drednot, Rekon Korps, Bora, Gravi, Yamii, Ruri (UT), Ruri, Reika",
+    "S - Balrog, Lasvoss, Baby Cat (UF), Yukimura, Keiji, Kuu (UT), Windy (UF), Kalisa, Daliasan, Dioramos (UT), Akira (UT), Saki, Vigler, Chronos, Poseidon, Ganesha (UT), Anubis (UT), Amaterasu, Ganesha, Siege (UF), Gravi, Tecoluga",
+    "A - Baby Cat, Ice (UT), Satoru, Shingen (UT), Kenshin (UF), Hanzo, Kai, Coppermine (UT), Lilin, Kasa Jizo, Ushiwakamaru, Sarukani, Kintaro, Momotaro (UT), Momotaro, Thunder Jack, Warlock (UT), Catman, Aphrodite (UT), Lucifer, Aphrodite, Hades, Gaia, Deth Troy, Aethur, Thermae, Muu, Lumina, Nanaho, Kanna, Himeyuri (UT), Himeyuri, Balaluga, Asiluga",
+    "B - Momoco, Ice, Dynasaurus, Cat Machine (UT), Cat Machine, Akechi, Shingen, Kenshin, Amakusa, Jeanne, Windy, Thundia, Twinstars, Terun, Ganglion, Hevijak, Issun, Gamereon, Cosmo, Shitakiri, Kaguya (UF), Warlock, Hayabusa, Prof Abyss, Mekako (UT), Mekako, White Rabbit (UF), Aset, Drednot, Rekon Korps, Bora, Yamii, Ruri (UT), Ruri, Reika",
     "C - Paladin, Tengu, Musashi, Yoshimoto, Oda (UF), Gunduros, Raiden (UT), Raiden, Dioramos, Babel, Kachi Kachi (UT), Kachi Kachi, Kaguya, Cyclops, Akira, Anubis, Bomburr, Volta, Aer (UF), Vega, Deale, Shishilan, Kubiluga, Furiluga",
-    "D - Nurse (UT), Nurse, Kaihime, Masamune (UT), Masamune, Kuu, Pegasa, Vars, Gladios, Kamukura (UT), Kamukura, Megidora (UT), Zeus (UT), Zeus, Blizana, Mizli, Tetsukachi, Tomoe, Legeluga, Kaoluga, Nekoluga (UT)",
+    "D - Nurse (UT), Nurse, Kaihime, Masamune (UT), Masamune, Kuu, Pegasa, Vars, Gladios, Kamukura (UT), Kamukura, Megidora (UT), Hanasaka, Zeus (UT), Zeus, Blizana, Mizli, Tetsukachi, Tomoe, Legeluga, Kaoluga, Nekoluga (UT)",
     "E - Cat Clan Heroes, Coppermine, Megidora, Sodom, White Rabbit, Sphinx Korps, Siege, Aer, Verbena, Nekoluga",
     "F - Oda, Myrcia, Envanz, Nobiluga, Papaluga",
   ],
@@ -30,6 +29,18 @@ export const tierListRaw: string[][] = [
     "TOP-8 - Yukimura",
     "TOP-9 - Lasvoss",
     "TOP-10 - Chronos",
+  ],
+  [
+    "S - Sirius",
+    "A - Emma",
+    "B - Pai-Pai, Rei, Sakura (UF)",
+    "C - Sakura",
+
+    "Ban-1 - Sirius",
+    "Ban-2 - Emma",
+    "Ban-3 - Pai-Pai",
+    "Ban-4 - Rei",
+    "Ban-5 - Sakura",
   ],
   [
     "S - Izanagi",
@@ -219,9 +230,9 @@ export const tierListRaw: string[][] = [
     "Ban-2 - Dioramos",
     "Ban-3 - Hevijak",
     "Ban-4 - Ganglion",
-    "Ban-5 - Raiden",
-    "Ban-6 - Gunduros",
-    "Ban-7 - Babel",
+    "Ban-5 - Gunduros",
+    "Ban-6 - Babel",
+    "Ban-7 - Raiden",
     "Ban-8 - Gladios",
     "Ban-9 - Vars",
     "Ban-10 - Kamukura",

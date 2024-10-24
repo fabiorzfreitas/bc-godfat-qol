@@ -2,7 +2,7 @@
 // @name        Battle Cats GodFat QoL Tools
 // @description Injects a lot of useful information to bc.godfat.org seed tracker
 // @namespace   https://github.com/vtvz/bc-godfat-qol
-// @version     2.10.0
+// @version     2.11.0
 // @match       https://bc.godfat.org/*
 // @author      vtvz
 // @updateURL   https://raw.githubusercontent.com/vtvz/bc-godfat-qol/master/dist/godfat.user.js

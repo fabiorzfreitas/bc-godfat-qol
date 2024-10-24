@@ -39,10 +39,9 @@ const data: string[] = [
 
   "https://battle-cats.fandom.com/wiki/Cat_Tengu_(Uber_Rare_Cat)",
 
-  "Dinosaur - A strong specialist sniper who deals extremely high piercing DPS against Angels. Has an all round well built kit with good HP, good KB count, and good cooldown. However, he struggles in having an unsafe standing range which considerably lowers general usage and can’t reliably counter higher ranged Angels without the help of peons or a stepping stone. Offers good control from his multi hit + LD attack with a summoner that synergizes well with his sniper kit but can interfere with his short cooldown.",
+  "Dynasaurus - A strong specialist sniper who deals extremely high piercing DPS against Angels. Has an all round well built kit with good HP, good KB count, and good cooldown. However, he struggles in having an unsafe standing range which considerably lowers general usage and can’t reliably counter higher ranged Angels without the help of peons or a stepping stone. Offers good control from his multi hit + LD attack with a summoner that synergizes well with his sniper kit but can interfere with his short cooldown.",
 
-  // NOTE: PATCH added link as a new line
-  "https://battle-cats.fandom.com/wiki/Dinosaur_(Uber_Rare_Cat)",
+  "https://battlecats.miraheze.org/wiki/Dynasaurus_Cat_(Uber_Rare_Cat)",
 
   "Momoco - Has wide wave attacks with high DPS and strong freeze procs against red, black, and angel, especially with the field wide wave attacks. Can deal good chip damage overtime with the wave, especially if a stepping stone is present. Struggles with survivability and has multi hits which can potentially make her miss attacks.",
 
@@ -228,6 +227,10 @@ const data: string[] = [
   "Issun Boshi - A kamikaze rusher with incredibly high speed, good cooldown, and cheap cost. Has very strong burst against angel and traitless along with omni range to increase attack accuracy. Being cheap and fast allows him to get value easily and deal huge damage to big angel/ traitless or kill medium sized foes. Has bad damage against non angel/ traitless, needs heavy boost in order to be viable as a generalist. You also get extra cool points by using Issun alongside Amaterasu.",
 
   "https://battle-cats.fandom.com/wiki/Issun_Boshi_(Uber_Rare_Cat)",
+
+  "Hanasaka - Subpar frontliner tanker with extremely high HP but with non-optimal targeting, poor offense and okay mobility. Carries an awkward multi hit with unreliable freeze procs at a short range. Horrid DPS and inability to land damage on second hit means unviable usage in the offensive department. Primarily used as a sponge tank against Zombies and Angels, with one of the highest effective HP among any uber in both traits. His usage as a defensive wall is situational in combating unconventional enemies, but even then most of his value is covered by Ramen and Shigong who are meatshields with better effectiveness vs Angel/ Zombie while being far more viable on mixed stages.",
+
+  "https://battlecats.miraheze.org/wiki/Hanasaka_Cat_(Uber_Rare_Cat)",
 
   "Ushiwakamaru - Another one of the best anti angels in the game, he is a designated specialist who carries extraordinary strats, deleting angels being his main function. He’s a spammable AOE attacker in first form who carries high bulk and insane cost efficiency that’s already enough to shut down most angels, but his evolved form becomes an incredibly powerful nuker who can kill the majority of angel enemies in just a few hits while having super high bulk thanks to the resist. His evolved form is also a fairly solid generalist.",
 
@@ -549,6 +552,26 @@ const data: string[] = [
   "Gundros - High ranged heavy nuker with super backliner range and gargantuan damage against aliens and blacks. Deals one of the highest singular nuke damage against his targets compared to most other alien and black nukers while offering high effective DPS. However, his damage is insanely limited due to his poor mobility, long attack rate, and carrying the third longest foreswing out of any cat unit. This forces Gundros to be used in a highly risky play style known as bait-and-punish where you lure enemies into his range and nuke them. This causes Gundros to have bad flexibility and very poor synergy with other units, but in return has the potential to completely obliterate a targeted alien/ black, with alien being the more relevant target for his build.",
 
   "https://battle-cats.fandom.com/wiki/Gunduros_(Uber_Rare_Cat)",
+
+  "Pai-Pai (Red Busters) - An extremely powerful anti-Red specialist who carries high defense and offense against Red enemies. She has a mix of high HP, huge damage per hit, and tons of DPS thanks to the combination of massive damage and resistance against Reds. She can counter nearly every Red enemy thanks to her high effective stats, especially combined with her strong mobility through her cooldown and movement speed. She is mediocre as a generalist and suffers from some slight speed clipping issues.",
+
+  "https://battlecats.miraheze.org/wiki/Pai-Pai_(Uber_Rare_Cat)",
+
+  "Rei (Air Busters) - An extremely powerful anti-Floating specialist who carries high defense and offense against Floating enemies. She has a mix of high HP, huge damage per hit, and tons of DPS thanks to the combination of massive damage and resistance against Floating. She can counter nearly every Floating enemy thanks to her high effective stats, especially combined with her strong mobility through her cooldown and movement speed. She is mediocre as a generalist and suffers from some speed clipping issues.",
+
+  "https://battlecats.miraheze.org/wiki/Strike_Unit_R.E.I._(Uber_Rare_Cat)",
+
+  "Sakura (Metal Busters) - A powerful multi-purpose anti Metal who is most well known for her reliable slow and weaken procs against Metal enemies which are both guaranteed and carry good uptime. She carries a small chance to unleash a devastating critical attack powerful enough to one shot every Metal enemy in the game. Her crit potential rises through her 2 critical up combos which increases her own crit chance as well as for any other crit unit on your team. Combined with her procs and good mobility, she is one of the best units to synergize with already meta crit units such as Catasaurus and Cameraman, providing one of the strongest anti-Metal synergies compared to most other anti-Metal units. Her anti-Wave/ Surge abilities expand on her general capabilities which gives her a slight edge compared to other anti-Metal ubers in having very strong performance on mixed stages rather than strict usage on pure Metal stages.",
+
+  "https://battlecats.miraheze.org/wiki/Sakura_Sonic_(Uber_Rare_Cat)",
+
+  "Emma (Wave Busters) - A surprisingly powerful melee/ support/ rusher who carries a multitude of functions within her kit. She has extremely high HP with a large KB count, which initially limits her durability but allows her to reposition behind meatshields often. Her support capabilities through her weaken procs heavily elevate her durability, especially on higher levels/ boost. Her weaken carries strong synergy with most other units in the game due to occurring at high proc rates and being able to reach far with her wave spam attacks, increasing the survivability of your whole team. Her mobility is also quite strong with her fast 30 speed, decent cooldown, and decent cost which are viable for rushing especially alongside other rushers which benefit greatly from her weaken procs. Is capable of Wave blocking roughly as well as Octopus, but still has vulnerability in waves slipping through her during her KB animation. Also carries mediocre damage output.",
+
+  "https://battlecats.miraheze.org/wiki/Hell_Warden_Emma_(Uber_Rare_Cat)",
+
+  "Sirius (Colossus Busters) - Top end backliner who carries a powerful anti-traited kit while being unique through her fast cooldown and huge array of debuff immunities. Her overall stats are comparable to attackers such as Gao, utilizing the same strong against traited ability to deliver good offense and high bulk against traited enemies. She carries positive aspects such as good damage per hit, high DPS, good attack rate, and a good amount of chances to reposition. Her most unique quality is cooldown, which is absurdly fast for her stats and role. Stacking 2 Sirius becomes easy, with double Sirius being capable of slicing down most stages that reach such a point. Her wide array of immunities including Curse and Toxic immunity further improve her longevity and dominance as a backliner, synergizing well with her high bulk. Her signature colossus slayer alongside high general stats allows her to counter nearly every Baron gauntlet in the game. Has a slight inconsistency with her attack being multi hit and landing at different locations, but has a big enough of an attack overlap to consistently dish out maximum offense.",
+
+  "https://battlecats.miraheze.org/wiki/Goddess_of_Light_Sirius_(Uber_Rare_Cat)",
 ];
 
 export default data;

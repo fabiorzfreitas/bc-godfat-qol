@@ -49,7 +49,15 @@ export default class HtmlInjector {
       <details>
 	      <summary>Sources</summary>
         <ul>
-          <li><a href="https://docs.google.com/document/u/0/d/10jGnHCqKcaVoQ6uPxohy57YKhQUjo20H_ddVXzSot3I">Tier Lists</a></li>
+          <li>
+            <a href="https://docs.google.com/document/u/0/d/10jGnHCqKcaVoQ6uPxohy57YKhQUjo20H_ddVXzSot3I">Tier Lists</a>
+
+            <ul>
+              <li>
+                <a href="https://docs.google.com/document/d/183G17wJFQL8Ur3AjXEPWZiuhTJBbPwKY7G54pb4htig/edit?tab=t.0">Synced with 10/17/24 doc update</a>
+              </li>
+            </ul>
+          </li>
           <li><a href="https://imgur.com/a/np-charts-9rAfl93">NP Charts</a></li>
         </ul>
       </details>
