@@ -5,5 +5,15 @@
       "description": "right single quotation mark",
       "level": "none"
     },
-  }
+    "201c": {
+      "description": "left double quotation mark",
+      "level": "none"
+    },
+    "201d": {
+      "description": "right double quotation mark",
+      "level": "none"
+    },
+  },
+  "python-envs.defaultEnvManager": "ms-python.python:conda",
+  "python-envs.defaultPackageManager": "ms-python.python:conda"
 }
