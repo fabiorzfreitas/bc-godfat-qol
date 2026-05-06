@@ -572,6 +572,247 @@ const data: string[] = [
   "Sirius (Colossus Busters) - Top end backliner who carries a powerful anti-traited kit while being unique through her fast cooldown and huge array of debuff immunities. Her overall stats are comparable to attackers such as Gao, utilizing the same strong against traited ability to deliver good offense and high bulk against traited enemies. She carries positive aspects such as good damage per hit, high DPS, good attack rate, and a good amount of chances to reposition. Her most unique quality is cooldown, which is absurdly fast for her stats and role. Stacking 2 Sirius becomes easy, with double Sirius being capable of slicing down most stages that reach such a point. Her wide array of immunities including Curse and Toxic immunity further improve her longevity and dominance as a backliner, synergizing well with her high bulk. Her signature colossus slayer alongside high general stats allows her to counter nearly every Baron gauntlet in the game. Has a slight inconsistency with her attack being multi hit and landing at different locations, but has a big enough of an attack overlap to consistently dish out maximum offense.",
 
   "https://battlecats.miraheze.org/wiki/Goddess_of_Light_Sirius_(Uber_Rare_Cat)",
+
+  "SOL DAE ROKKER",
+
+  "https://battlecats.miraheze.org/wiki/SOL_DAE_ROKKER_(Uber_Rare_Cat)",
+
+  "Kenshin Himura",
+
+  "https://battlecats.miraheze.org/wiki/Kenshin_Himura_(Uber_Rare_Cat)",
+
+  "Sanosuke Sagara",
+
+  "https://battlecats.miraheze.org/wiki/Sanosuke_Sagara_(Uber_Rare_Cat)",
+
+  "Aoshi Shinomori",
+
+  "https://battlecats.miraheze.org/wiki/Aoshi_Shinomori_(Uber_Rare_Cat)",
+
+  "Hajime Saito",
+
+  "https://battlecats.miraheze.org/wiki/Hajime_Saito_(Uber_Rare_Cat)",
+
+  "Trixi the Merc",
+
+  "https://battlecats.miraheze.org/wiki/Trixi_the_Merc_(Uber_Rare_Cat)",
+
+  "Music Fest Thundia",
+
+  "https://battlecats.miraheze.org/wiki/Music_Fest_Thundia_(Uber_Rare_Cat)",
+
+  "Gunduros",
+
+  "https://battlecats.miraheze.org/wiki/Gunduros_(Uber_Rare_Cat)",
+
+  "Spirit (Gunduros)",
+
+  "https://battlecats.miraheze.org/wiki/Spirit_(Gunduros)_(Uber_Rare_Cat)",
+
+  "Dynasaurus Cat",
+
+  "https://battlecats.miraheze.org/wiki/Dynasaurus_Cat_(Uber_Rare_Cat)",
+
+  "Spirit (Dynasaurus)",
+
+  "https://battlecats.miraheze.org/wiki/Spirit_(Dynasaurus)_(Uber_Rare_Cat)",
+
+  "Taitenki",
+
+  "https://battlecats.miraheze.org/wiki/Taitenki_(Uber_Rare_Cat)",
+
+  "Hanasaka Cat",
+
+  "https://battlecats.miraheze.org/wiki/Hanasaka_Cat_(Uber_Rare_Cat)",
+
+  "Spirit (Cherry)",
+
+  "https://battlecats.miraheze.org/wiki/Spirit_(Cherry)_(Uber_Rare_Cat)",
+
+  "Pumpkin Sodom",
+
+  "https://battlecats.miraheze.org/wiki/Pumpkin_Sodom_(Uber_Rare_Cat)",
+
+  "Mech Patrol Axel",
+
+  "https://battlecats.miraheze.org/wiki/Mech_Patrol_Axel_(Uber_Rare_Cat)",
+
+  "Spirit (Axel)",
+
+  "https://battlecats.miraheze.org/wiki/Spirit_(Axel)_(Uber_Rare_Cat)",
+
+  "Winter General Kaihime",
+
+  "https://battlecats.miraheze.org/wiki/Winter_General_Kaihime_(Uber_Rare_Cat)",
+
+  "Madoka Cat & Homura",
+
+  "https://battlecats.miraheze.org/wiki/Madoka_Cat_&_Homura_(Uber_Rare_Cat)",
+
+  "Celestial Child Luna",
+
+  "https://battlecats.miraheze.org/wiki/Celestial_Child_Luna_(Uber_Rare_Cat)",
+
+  "Mamoluga",
+
+  "https://battlecats.miraheze.org/wiki/Mamoluga_(Uber_Rare_Cat)",
+
+  "Spirit (Mamoluga)",
+
+  "https://battlecats.miraheze.org/wiki/Spirit_(Mamoluga)_(Uber_Rare_Cat)",
+
+  "Koneko",
+
+  "https://battlecats.miraheze.org/wiki/Koneko_(Uber_Rare_Cat)",
+
+  "The Amazing Catman",
+
+  "https://battlecats.miraheze.org/wiki/The_Amazing_Catman_(Uber_Rare_Cat)",
+
+  "Netherworld Nymph Lunacia",
+
+  "https://battlecats.miraheze.org/wiki/Netherworld_Nymph_Lunacia_(Uber_Rare_Cat)",
+
+  "Baki Hanma",
+
+  "https://battlecats.miraheze.org/wiki/Baki_Hanma_(Uber_Rare_Cat)",
+
+  "Retsu Kaioh",
+
+  "https://battlecats.miraheze.org/wiki/Retsu_Kaioh_(Uber_Rare_Cat)",
+
+  "Kaoru Hanayama",
+
+  "https://battlecats.miraheze.org/wiki/Kaoru_Hanayama_(Uber_Rare_Cat)",
+
+  "Katsumi Orochi",
+
+  "https://battlecats.miraheze.org/wiki/Katsumi_Orochi_(Uber_Rare_Cat)",
+
+  "Jack Hammer",
+
+  "https://battlecats.miraheze.org/wiki/Jack_Hammer_(Uber_Rare_Cat)",
+
+  "Mighty Morta-Loncha",
+
+  "https://battlecats.miraheze.org/wiki/Mighty_Morta-Loncha_(Uber_Rare_Cat)",
+
+  "Spirit (Gunhauzer)",
+
+  "https://battlecats.miraheze.org/wiki/Spirit_(Gunhauzer)_(Uber_Rare_Cat)",
+
+  "Sonic",
+
+  "https://battlecats.miraheze.org/wiki/Sonic_(Uber_Rare_Cat)",
+
+  "Tails",
+
+  "https://battlecats.miraheze.org/wiki/Tails_(Uber_Rare_Cat)",
+
+  "Knuckles",
+
+  "https://battlecats.miraheze.org/wiki/Knuckles_(Uber_Rare_Cat)",
+
+  "Shadow",
+
+  "https://battlecats.miraheze.org/wiki/Shadow_(Uber_Rare_Cat)",
+
+  "Agent Staal",
+
+  "https://battlecats.miraheze.org/wiki/Agent_Staal_(Uber_Rare_Cat)",
+
+  "Victorious Skanda",
+
+  "https://battlecats.miraheze.org/wiki/Victorious_Skanda_(Uber_Rare_Cat)",
+
+  "Spirit (Skanda)",
+
+  "https://battlecats.miraheze.org/wiki/Spirit_(Skanda)_(Uber_Rare_Cat)",
+
+  "Mass Production EVA",
+
+  "https://battlecats.miraheze.org/wiki/Mass_Production_EVA_(Uber_Rare_Cat)",
+
+  "Komori",
+
+  "https://battlecats.miraheze.org/wiki/Komori_(Uber_Rare_Cat)",
+
+  "Spirit (Komori)",
+
+  "https://battlecats.miraheze.org/wiki/Spirit_(Komori)_(Uber_Rare_Cat)",
+
+  "Seaside Pegasa",
+
+  "https://battlecats.miraheze.org/wiki/Seaside_Pegasa_(Uber_Rare_Cat)",
+
+  "Spirit (Seaside Pegasa)",
+
+  "https://battlecats.miraheze.org/wiki/Spirit_(Seaside_Pegasa)_(Uber_Rare_Cat)",
+
+  "Sorceress Sidmi",
+
+  "https://battlecats.miraheze.org/wiki/Sorceress_Sidmi_(Uber_Rare_Cat)",
+
+  "Spirit (Sidmi)",
+
+  "https://battlecats.miraheze.org/wiki/Spirit_(Sidmi)_(Uber_Rare_Cat)",
+
+  "Cammy",
+
+  "https://battlecats.miraheze.org/wiki/Cammy_(Uber_Rare_Cat)",
+
+  "Juri",
+
+  "https://battlecats.miraheze.org/wiki/Juri_(Uber_Rare_Cat)",
+
+  "Raclesa the Lioness ",
+
+  "https://battlecats.miraheze.org/wiki/Raclesa_the_Lioness__(Uber_Rare_Cat)",
+
+  "Squire Luno",
+
+  "https://battlecats.miraheze.org/wiki/Squire_Luno_(Uber_Rare_Cat)",
+
+  "Spirit (Luno)",
+
+  "https://battlecats.miraheze.org/wiki/Spirit_(Luno)_(Uber_Rare_Cat)",
+
+  "Spirit (Lunos)",
+
+  "https://battlecats.miraheze.org/wiki/Spirit_(Lunos)_(Uber_Rare_Cat)",
+
+  "Tanjiro Kamado",
+
+  "https://battlecats.miraheze.org/wiki/Tanjiro_Kamado_(Uber_Rare_Cat)",
+
+  "Nezuko Kamado",
+
+  "https://battlecats.miraheze.org/wiki/Nezuko_Kamado_(Uber_Rare_Cat)",
+
+  "Zenitsu Agatsuma",
+
+  "https://battlecats.miraheze.org/wiki/Zenitsu_Agatsuma_(Uber_Rare_Cat)",
+
+  "Inosuke Hashibira",
+
+  "https://battlecats.miraheze.org/wiki/Inosuke_Hashibira_(Uber_Rare_Cat)",
+
+  "Giyu Tomioka",
+
+  "https://battlecats.miraheze.org/wiki/Giyu_Tomioka_(Uber_Rare_Cat)",
+
+  "Shinobu Kocho",
+
+  "https://battlecats.miraheze.org/wiki/Shinobu_Kocho_(Uber_Rare_Cat)",
+
+  "Kyojuro Rengoku",
+
+  "https://battlecats.miraheze.org/wiki/Kyojuro_Rengoku_(Uber_Rare_Cat)",
+
+  "Fuma Kotaro",
+
+  "https://battlecats.miraheze.org/wiki/Fuma_Kotaro_(Uber_Rare_Cat)"
+
 ];
 
 export default data;
