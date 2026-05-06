@@ -1,6 +1,6 @@
 // Wrap and join
 // ^v$hS"A,Jj
-// Wram and join with Fest prefix
+// Wrap and join with Fest prefix
 // ^v$hS"A,_A^aFest-j
 /*
 Numeric
