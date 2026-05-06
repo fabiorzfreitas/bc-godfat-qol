@@ -646,7 +646,6 @@ export default {
   "Ancient Egg: N202": "Special",
   "Ranma Saotome (Leotard)": "Uber Super Rare",
   "Genma Saotome (Panda)": "Super Rare",
-  "ネコチーター": "Uber Super Rare",
   "Mighty Carrowsell": "Uber Super Rare",
   "Ancient Egg: N105": "Rare",
   "Ancient Egg: N106": "Rare",
