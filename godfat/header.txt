@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name        Battle Cats GodFat QoL Tools
+// @name        Battle Cats GodFat QoL Tools (Fork)
 // @description Injects a lot of useful information to bc.godfat.org seed tracker
-// @namespace   https://github.com/vtvz/bc-godfat-qol
+// @namespace   https://github.com/fabiorzfreitas/bc-godfat-qol
 // @version     2.11.0
 // @match       https://bc.godfat.org/*
-// @author      vtvz
-// @updateURL   https://raw.githubusercontent.com/vtvz/bc-godfat-qol/master/dist/godfat.user.js
-// @downloadURL https://raw.githubusercontent.com/vtvz/bc-godfat-qol/master/dist/godfat.user.js
+// @author      fabiorzfreitas
+// @updateURL   https://raw.githubusercontent.com/fabiorzfreitas/bc-godfat-qol/master/dist/godfat.user.js
+// @downloadURL https://raw.githubusercontent.com/fabiorzfreitas/bc-godfat-qol/master/dist/godfat.user.js
 // ==/UserScript==
