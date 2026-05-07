@@ -2,7 +2,7 @@
 // @name        Battle Cats GodFat QoL Tools (Fork)
 // @description Injects a lot of useful information to bc.godfat.org seed tracker
 // @namespace   https://github.com/fabiorzfreitas/bc-godfat-qol
-// @version     2.11.0
+// @version     2.12.0
 // @match       https://bc.godfat.org/*
 // @author      fabiorzfreitas
 // @updateURL   https://raw.githubusercontent.com/fabiorzfreitas/bc-godfat-qol/master/dist/godfat.user.js
