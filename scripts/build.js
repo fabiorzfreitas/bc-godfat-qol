@@ -14,7 +14,7 @@ const tmpFileStream = fs.createWriteStream(tmpFile);
 
 const bundle = browserify()
   .add(indexFile)
-  .plugin(tsify, { noImplicitAny: false })
+  .plugin(tsify, { noImplicitAny: false, files: [] })
   .bundle();
 
 bundle.pipe(tmpFileStream);

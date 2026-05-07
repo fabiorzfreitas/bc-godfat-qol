@@ -1,4 +1,5 @@
 {
+  "forceConsistentCasingInFilenames": true,
   "compilerOptions": {
     "strict": true /* Enable all strict type-checking options. */,
     "noImplicitAny": false /* Raise error on expressions and declarations with an implied 'any' type. */,
