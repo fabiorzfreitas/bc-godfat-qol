@@ -2032,21 +2032,18 @@ exports.default = data;
 
 },{}],9:[function(require,module,exports){
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.unitsRarityRaw = exports.descriptionsDataRaw = exports.tierListRaw = exports.npChartRaw = exports.bannersRaw = void 0;
 var bannersRaw_1 = require("./bannersRaw");
-Object.defineProperty(exports, "bannersRaw", { enumerable: true, get: function () { return __importDefault(bannersRaw_1).default; } });
+Object.defineProperty(exports, "bannersRaw", { enumerable: true, get: function () { return bannersRaw_1.default; } });
 var npChartRaw_1 = require("./npChartRaw");
-Object.defineProperty(exports, "npChartRaw", { enumerable: true, get: function () { return __importDefault(npChartRaw_1).default; } });
+Object.defineProperty(exports, "npChartRaw", { enumerable: true, get: function () { return npChartRaw_1.default; } });
 var tierListRaw_1 = require("./tierListRaw");
-Object.defineProperty(exports, "tierListRaw", { enumerable: true, get: function () { return __importDefault(tierListRaw_1).default; } });
+Object.defineProperty(exports, "tierListRaw", { enumerable: true, get: function () { return tierListRaw_1.default; } });
 var descriptionsDataRaw_1 = require("./descriptionsDataRaw");
-Object.defineProperty(exports, "descriptionsDataRaw", { enumerable: true, get: function () { return __importDefault(descriptionsDataRaw_1).default; } });
+Object.defineProperty(exports, "descriptionsDataRaw", { enumerable: true, get: function () { return descriptionsDataRaw_1.default; } });
 var unitsRarityRaw_1 = require("./unitsRarityRaw");
-Object.defineProperty(exports, "unitsRarityRaw", { enumerable: true, get: function () { return __importDefault(unitsRarityRaw_1).default; } });
+Object.defineProperty(exports, "unitsRarityRaw", { enumerable: true, get: function () { return unitsRarityRaw_1.default; } });
 
 },{"./bannersRaw":7,"./descriptionsDataRaw":8,"./npChartRaw":10,"./tierListRaw":11,"./unitsRarityRaw":12}],10:[function(require,module,exports){
 "use strict";
@@ -3221,17 +3218,14 @@ exports.default = {
 
 },{}],13:[function(require,module,exports){
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 const data_1 = require("./data");
-const TierList_1 = __importDefault(require("./TierList"));
-const DescriptionData_1 = __importDefault(require("./DescriptionData"));
-const Banners_1 = __importDefault(require("./Banners"));
-const TierLabels_1 = __importDefault(require("./TierLabels"));
-const UnitsRarity_1 = __importDefault(require("./UnitsRarity"));
-const HtmlInjector_1 = __importDefault(require("./HtmlInjector"));
+const TierList_1 = require("./TierList");
+const DescriptionData_1 = require("./DescriptionData");
+const Banners_1 = require("./Banners");
+const TierLabels_1 = require("./TierLabels");
+const UnitsRarity_1 = require("./UnitsRarity");
+const HtmlInjector_1 = require("./HtmlInjector");
 const descriptionData = new DescriptionData_1.default().parse(data_1.descriptionsDataRaw);
 const tierLabels = new TierLabels_1.default().npChart(data_1.npChartRaw);
 const tierList = new TierList_1.default(descriptionData)
