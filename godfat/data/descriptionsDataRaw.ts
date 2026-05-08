@@ -131,7 +131,7 @@ const data: string[] = [
 
   "https://battlecats.miraheze.org/wiki/Lilin_(Uber_Rare_Cat)",
 
-  "Terun - An average support unit with very high slow uptime against red and alien while having very cheap cost and fast cooldown. Can be stacked for easy perma slowing and reliable procs. Lacks in HP, offense, and has slight niche overlap with Witch and Psychocat.",
+  "Huntress Terun - An average support unit with very high slow uptime against red and alien while having very cheap cost and fast cooldown. Can be stacked for easy perma slowing and reliable procs. Lacks in HP, offense, and has slight niche overlap with Witch and Psychocat.",
 
   "https://battlecats.miraheze.org/wiki/Huntress_Terun_(Uber_Rare_Cat)",
 
