@@ -29,6 +29,7 @@ export default class DescriptionData {
     "Dark Lunos": "Lone Moon Lunos",
     "Darwin": "Master of Selection Darvin",
     "Doron": "Elder Mask Doron",
+    "Empress": "Princess Cat",
     "Everbloom Kamukura": "Blooming Kamukura",
     "Filibuster": "Filibuster Cat X",
     "Gunhauzer": "Mighty Morta-Loncha",

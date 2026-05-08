@@ -2,7 +2,7 @@
 // @name        Battle Cats GodFat QoL Tools (Fork)
 // @description Injects a lot of useful information to bc.godfat.org seed tracker
 // @namespace   https://github.com/fabiorzfreitas/bc-godfat-qol
-// @version     2.13.7
+// @version     2.13.8
 // @match       https://bc.godfat.org/*
 // @author      fabiorzfreitas
 // @updateURL   https://github.com/fabiorzfreitas/bc-godfat-qol/raw/refs/heads/master/dist/godfat.user.js
@@ -74,6 +74,7 @@ class DescriptionData {
             "Dark Lunos": "Lone Moon Lunos",
             "Darwin": "Master of Selection Darvin",
             "Doron": "Elder Mask Doron",
+            "Empress": "Princess Cat",
             "Everbloom Kamukura": "Blooming Kamukura",
             "Filibuster": "Filibuster Cat X",
             "Gunhauzer": "Mighty Morta-Loncha",
@@ -1843,7 +1844,7 @@ exports.tierListRaw = [
         "A - Balaluga, Asiluga, Bomburr (UF), Aethur, Thermae, Muu, Drednot (UF), Gravi, Koneko, Hevijak, Ice Cat (UT), Satoru, Issun, Kasa Jizo, Ushiwakamaru, Sarukani, Kintaro, Kaguya (UF), Momotaro (UT), Momotaro, Izanami, Nanaho, Gaia, Black Zeus, Ushi, Muu, Kalisa, Kai, Coppermine (UT), Lilin, Nanaho, Kanna, Vega, Himeyuri (UT), Himeyuri, Saki, Warlock (UT), White Rabbit (UF), Catman, Shingen (UT), Kenshin (UF), Hanzo, Skanda, Aphrodite (UT), Aphrodite, Gaia, Aset, Aquablaster Saki, Coastal Kanna, Cake Machine, Count Yukimura, Doron, Idi, Bahamut, Socrates, Izanami, Gao, Kasli, Psychoduck",
         "A- - Dark Izu, Garu, D’artanyan, Izu, Dark Mitama, Dark Garu",
         "B - Akechi, Shingen, Amakusa, Kenshin, Musashi, Yoshimoto (UT), Babel, Lumina, Moonshade Kaworu, Momoco, Doktor Heaven, Jeanne, Emperor, Musashi, Drednot, Gunhauzer, Rekon Korps, Sphinx Korps, Ganglion, Babel, Gunduros, Kachi Kachi (UT), Cosmo, Shitakiri, Gamereon (UT), Gamereon, Lumina, Bora (UF), Bora, Yamii, Momoco, Tengu, Dynasaurus, Cat Machine (UT), Cat Machine, Pai-Pai, Rei, Sakura (UF), Raclesa, Jeanne, Terun, Myrcia, Windy, Ruri (UT), Ruri, Reika, Warlock, Mekako (UT), Heaven, Axel, Hayabusa, Mekako,, Butler Vigler, Amazing Catman, Dogumaru, Jagando, Valkyrie (T), Floral Kalisa, Rabbit Satoru, Skull Vars",
-        "C - Akuma, Legeluga, Anubis, Bomburr, Cyclops, Ice Cat, Paladin (UT), Paladin, Kachi Kachi, Kaguya, Mamoluga, Shishilan, Kubiluga, Legeluga, Sakura, Sidmi, Deale, Sodom (UT), Raiden (UT), Dioramos, Vars (UT), Twinstars (UT), Twinstars, Thundia, Volta, Aer (UF), Yoshimoto, Oda (UF), Kotaro, Chocoladite, Chronos the Bride, Filibuster (T), Luza, Urs, Ururun, Darwin, Midsummer Rabbit, Music Thundia, Lil Valkyrie Dark, Lil Valkyrie, Tropical Kalisa, Yuletide Nurse, Keiji Claus",
+        "C - Akuma, Legeluga, Anubis, Bomburr, Cyclops, Ice Cat, Paladin (UT), Paladin, Kachi Kachi, Kaguya, Mamoluga, Shishilan, Kubiluga, Legeluga, Sakura, Sidmi, Empress, Deale, Sodom (UT), Raiden (UT), Dioramos, Vars (UT), Twinstars (UT), Twinstars, Thundia, Volta, Aer (UF), Yoshimoto, Oda (UF), Kotaro, Chocoladite, Chronos the Bride, Filibuster (T), Luza, Urs, Ururun, Darwin, Midsummer Rabbit, Music Thundia, Lil Valkyrie Dark, Lil Valkyrie, Tropical Kalisa, Yuletide Nurse, Keiji Claus",
         "D - Akira, Hanasaka, Kaihime, Masamune (UT), Nekoluga (UT), Nurse (UT), Cat Clan Heroes, Pegasa, Sodom, Raiden, Gladios, Vars, Kamukura (UT), Kamukura, Megidora (UT), Tekachi, Blizana, Mizli, Tomoe, Zeus (UT), Frosty Kai, Winter Kaihime, Angel Twinstars, Reindeer Terun, Hallowindy, Pumpkin Sodom, Hermit, Yulala, Seashore Kai, Seaside Pegasa, Bikiniluga, Springtime Kenshin, Sweet Love Mekako",
         "E - Kat-A-Pult, Kuu, Masamune, Megidora, Nekoluga, Nurse, Verbena, White Rabbit, Zeus, Arctic Cat, Lovestruck Demon, Cat God (T), Cat God, Mina, Li’l Nyandam, Coast Kaguya, Everbloom Kamukura, Spooky Thundia",
         "F - Coppermine, Envanz, Komori, Aer, Nobiluga, Papaluga, Oda, Bride Balaluga, First-Love Myrcia, Lilith, Musashi, Filibuster, Mecha Bun, Valkyrie, Night Lilin, Waverider Kuu, Seabreeze Coppermine, Santa Kuu, Holy Coppermine",
@@ -1902,8 +1903,9 @@ exports.tierListRaw = [
         "Fest-20 - Dark Mitama",
         "Fest-21 - Dark Garu",
         "Fest-22 - Agent Staal",
-        "Fest-23 - Lil Valkyrie Dark",
-        "Fest-24 - Lil Valkyrie",
+        "Fest-23 - Empress",
+        "Fest-24 - Lil Valkyrie Dark",
+        "Fest-25 - Lil Valkyrie",
     ],
     [
         "Ban-1 - Balrog",
