@@ -2,7 +2,7 @@
 // @name        Battle Cats GodFat QoL Tools (Fork)
 // @description Injects a lot of useful information to bc.godfat.org seed tracker
 // @namespace   https://github.com/fabiorzfreitas/bc-godfat-qol
-// @version     2.12.6
+// @version     2.12.7
 // @match       https://bc.godfat.org/*
 // @author      fabiorzfreitas
 // @updateURL   https://github.com/fabiorzfreitas/bc-godfat-qol/raw/refs/heads/master/dist/godfat.user.js
@@ -1638,7 +1638,6 @@ const data = [
     "Sodom - Slow and expensive mid ranged tank with insufficient amounts of HP against floating and relic. Also has an extremely long attack rate and foreswing to create a fairly below average offense despite being above the DPS criteria for his range. Gets overshadowed by superior defense such as Modern, Corn, and Octopus.",
     "https://battlecats.miraheze.org/wiki/Sodom_(Uber_Rare_Cat)",
     "Vars - A generic backliner that’s outclassed by Ururun in general usage, but carries decent procs against blacks and relics, with relic knockback + slow being a notable ability for early UL stages and can act as an early version of Uril. Decreases in value over the course of the game once Uril is acquired and true formed.",
-    "https://battlecats.miraheze.org/wiki/Vars_(Uber_Rare_Cat)",
     // NOTE: PATCH added link as a new line
     "https://battlecats.miraheze.org/wiki/Vars_(Uber_Rare_Cat)",
     "Kamukura - A generic and slow backliner who is outclassed by Ururun in general usage, but has a niche of being a ranged anti red tank and support with his resist, knockback, and slow against red. Unfortunately he’s very sluggish in his stats along with his abilities not carrying particularly good value, as red knockback, slow, and defense can be found in units like Witch, Pirate, and Roe. The lack of mobility leaves this unit to only be strong in early game stages for his range.",
