@@ -81,7 +81,7 @@ const data: string[] = [
 
   "Amakusa - A powerful backliner who deals great damage to black and aku, with aku being notable for its relevance and Amakusa being on the top end of aku nukers, dealing staggering amounts of DPS that can brute force through even most aku shields. His generalist stats are also solid too, going a little above Ururun. Unfortunately has multi hit which makes him slightly better vs some shielded aku, but generally makes him miss a few of his attacks.",
 
-  "https://battlecats.miraheze.org/wiki/Shiro_Amakusa_(Uber_Rare_Cat)",
+  "https://battlecats.miraheze.org/wiki/Amakusa_Shiro_(Uber_Rare_Cat)",
 
   "Hanzo - A strong backliner with very high damage against floating and black. He has super quick foreswing that allows Hanzo to have very high accuracy while dealing the DPS you’d find on a bulky nuker. He also has pretty strong survivability with good HP and good KB count. Bonus freeze procs neutralize blacks and floatings briefly to regain ground. Has subpar generalist stats.",
 
@@ -131,9 +131,9 @@ const data: string[] = [
 
   "https://battlecats.miraheze.org/wiki/Lilin_(Uber_Rare_Cat)",
 
-  "Huntress Terun - An average support unit with very high slow uptime against red and alien while having very cheap cost and fast cooldown. Can be stacked for easy perma slowing and reliable procs. Lacks in HP, offense, and has slight niche overlap with Witch and Psychocat.",
+  "Terun - An average support unit with very high slow uptime against red and alien while having very cheap cost and fast cooldown. Can be stacked for easy perma slowing and reliable procs. Lacks in HP, offense, and has slight niche overlap with Witch and Psychocat.",
 
-  "https://battlecats.miraheze.org/wiki/Huntress_Terun_(Uber_Rare_Cat)",
+  "https://battlecats.miraheze.org/wiki/Terun_(Uber_Rare_Cat)",
 
   "Pegasa - A generic backliner with below average offensive stats but above average mobility. Has good weaken procs against floating and zombies through her good range, guaranteed procs, and high uptime. Also has summon which does good burst damage and long duration weaken procs, though comes at the expense of restricting one Pegasa on the field at a time. Her weaken procs are more suitable as supplementary support over hard carry and also have slight niche overlap with Sanzo and Psychocat weaken.",
 
@@ -141,7 +141,7 @@ const data: string[] = [
 
   "Jeanne - Fast, high DPS piercing mid ranger with insane damage against red and floating. One of the best attackers for her field, notably floating for her quick attacks which can juggle and decimate crowds well while her huge DPS amount can accumulate tons of damage against bulkier red enemies. Is okay as a generalist and has decent survivability.",
 
-  "https://battlecats.miraheze.org/wiki/Headmistress_Jeanne_(Legend_Rare_Cat)",
+  "https://battlecats.miraheze.org/wiki/Jeanne_(Legend_Rare_Cat)",
 
   "Megidora - A generic mid ranger/ backliner who has knockback and slow against floating, relic, and metal. Usage as a generalist is completely outclassed by Ururun, and usage as a proc unit is outclassed by sanzo, uril, and puppetmaster as well as doctor, rodeo, and quizmaster. Has some usage in favor of role compression, but largely remains irrelevant in later game environment.",
 
@@ -153,7 +153,6 @@ const data: string[] = [
 
   "Vars - A generic backliner that’s outclassed by Ururun in general usage, but carries decent procs against blacks and relics, with relic knockback + slow being a notable ability for early UL stages and can act as an early version of Uril. Decreases in value over the course of the game once Uril is acquired and true formed.",
   
-  // NOTE: PATCH added link as a new line
   "https://battlecats.miraheze.org/wiki/Vars_(Uber_Rare_Cat)",
 
   "Kamukura - A generic and slow backliner who is outclassed by Ururun in general usage, but has a niche of being a ranged anti red tank and support with his resist, knockback, and slow against red. Unfortunately he’s very sluggish in his stats along with his abilities not carrying particularly good value, as red knockback, slow, and defense can be found in units like Witch, Pirate, and Roe. The lack of mobility leaves this unit to only be strong in early game stages for his range.",
@@ -318,7 +317,6 @@ const data: string[] = [
 
   "Aset - A bulky rusher/ mid ranger with high DPS, fast attacks, and waves to rush down enemies and clear peons for strong synergy with many melee units. The combination of her fast attacks and waves makes her great for clearing the path for units, juggling certain enemies, and potentially piercing lower class backliners when accompanied with a stepping stone for some strong damage output overtime. On the other hand, her fast attacks mean low damage per hit, even with the wave and strengthen accounted for. This creates bad burst, which means you want to pair her with hard hitting units and utilize her on stages where she can be sustained more easily.",
 
-  // NOTE: PATCHED "https://battlecats.miraheze.org/wiki/723_(Uber_Rare_Cat)",
   "https://battlecats.miraheze.org/wiki/Lightmother_Aset_(Uber_Rare_Cat)",
 
   "Gaia - One of the most inconsistent nukers in the game that carries one of the highest payoffs out of any attacker. Her godlike offense against traited can absolutely annihilate any big enemy, even if they are getting hit by only one or two of her three attacks. She also carries LD which gives her some pierce, being able to snipe lower class backliners and reach enemies that she may have otherwise missed. Her inconsistent nature comes from her having one of the harshest blindspots in the game, having super small inner range which creates the weakness of her being super vulnerable against frontline pushers that can move into her blindspot. The main strategy to using Gaia is to make sure enemies are positioned outside of her blindspot, which can be done with synergy such as rock or debuffers to freeze or slow enemies in place. This usage may not be optimal on many stages, which creates a unit that has generalist abilities and is paradoxically a strong ended specialist, with her nuking power having very high payoff but little ease of usage, comparable to a unit like Lasvoss.",
@@ -601,21 +599,9 @@ const data: string[] = [
 
   "https://battlecats.miraheze.org/wiki/Music_Fest_Thundia_(Uber_Rare_Cat)",
 
-  "Gunduros",
-
-  "https://battlecats.miraheze.org/wiki/Gunduros_(Uber_Rare_Cat)",
-
-  "Dynasaurus Cat",
-
-  "https://battlecats.miraheze.org/wiki/Dynasaurus_Cat_(Uber_Rare_Cat)",
-
   "Taitenki",
 
   "https://battlecats.miraheze.org/wiki/Taitenki_(Uber_Rare_Cat)",
-
-  "Hanasaka Cat",
-
-  "https://battlecats.miraheze.org/wiki/Hanasaka_Cat_(Uber_Rare_Cat)",
 
   "Pumpkin Sodom",
 
@@ -795,7 +781,7 @@ const data: string[] = [
 
   "Emperor Cat",
 
-  "https://battlecats.miraheze.org/wiki/Emperor_Cat_(Uber_Rare_Cat)",
+  "https://battlecats.miraheze.org/wiki/Emperor_Cat_(Legend_Rare_Cat)",
 
   "Dogumaru",
 
@@ -836,10 +822,6 @@ const data: string[] = [
   "Li'l Nyandam",
 
   "https://battlecats.miraheze.org/wiki/Li'l_Nyandam_(Special_Cat)",
-
-  "Lilin",
-
-  "https://battlecats.miraheze.org/wiki/Lilin_(Uber_Rare_Cat)",
 
   "Lilith Cat",
 
@@ -920,10 +902,6 @@ const data: string[] = [
   "White Butler Vigler",
 
   "https://battlecats.miraheze.org/wiki/White_Butler_Vigler_(Uber_Rare_Cat)",
-
-  "Wolfchild Deale",
-
-  "https://battlecats.miraheze.org/wiki/Wolfchild_Deale_(Uber_Rare_Cat)",
 
   "Yuletide Nurse",
 

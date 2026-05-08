@@ -220,7 +220,7 @@ const banners: Banner[] = [
     title: "Cyber Academy Galaxy Gals",
     link: "https://battle-cats.fandom.com/wiki/Cyber_Academy_Galaxy_Gals_(Gacha_Event)",
     units: [
-      "Headmistress Jeanne",
+      "Jeanne",
       "Windy",
       "Thundia",
       "Kuu",
@@ -230,7 +230,7 @@ const banners: Banner[] = [
       "Twinstars",
       "Myrcia",
       "Lilin",
-      "Huntress Terun",
+      "Terun",
       "Pegasa",
       "Wise Emperor Nobel",
     ],
@@ -467,7 +467,7 @@ const banners: Banner[] = [
     link: "https://battle-cats.fandom.com/wiki/RoyalFest_(Gacha_Event)",
     units: [
       "Musashi Miyamoto",
-      "Headmistress Jeanne",
+      "Jeanne",
       "High Lord Babel",
       "Ushiwakamaru",
       "Wonder MOMOCO",
@@ -852,7 +852,7 @@ const banners: Banner[] = [
     link: "https://battle-cats.fandom.com/wiki/Colossus_Busters_(Gacha_Event)",
     units: [
       "Goddess of Light Sirius",
-      "Huntress Terun",
+      "Terun",
       "Hattori Hanzo",
       "Bliza",
       "Sea Serpent Daliasan",

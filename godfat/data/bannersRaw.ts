@@ -74,7 +74,7 @@ const banners: Banner[] = [
       "Twinstars",
       "Myrcia",
       "Lilin",
-      "Huntress Terun",
+      "Terun",
       "Pegasa",
       "Raclesa",
       "Jeanne",
@@ -388,7 +388,7 @@ const banners: Banner[] = [
     link: "https://battlecats.miraheze.org/wiki/Colossus_Busters_(Gacha_Event)",
     units: [
       "Goddess of Light Sirius",
-      "Huntress Terun",
+      "Terun",
       "Hattori Hanzo",
       "Bliza",
       "Sea Serpent Daliasan",
