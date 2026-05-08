@@ -2,7 +2,7 @@
 // @name        Battle Cats GodFat QoL Tools (Fork)
 // @description Injects a lot of useful information to bc.godfat.org seed tracker
 // @namespace   https://github.com/fabiorzfreitas/bc-godfat-qol
-// @version     2.13.5
+// @version     2.13.6
 // @match       https://bc.godfat.org/*
 // @author      fabiorzfreitas
 // @updateURL   https://github.com/fabiorzfreitas/bc-godfat-qol/raw/refs/heads/master/dist/godfat.user.js
@@ -1626,8 +1626,6 @@ const data = [
     "https://battlecats.miraheze.org/wiki/The_Amazing_Catman_(Uber_Rare_Cat)",
     "Netherworld Nymph Lunacia",
     "https://battlecats.miraheze.org/wiki/Netherworld_Nymph_Lunacia_(Uber_Rare_Cat)",
-    "Jack Hammer",
-    "https://battlecats.miraheze.org/wiki/Jack_Hammer_(Uber_Rare_Cat)",
     "Mighty Morta-Loncha",
     "https://battlecats.miraheze.org/wiki/Mighty_Morta-Loncha_(Uber_Rare_Cat)",
     "Agent Staal",
@@ -1724,6 +1722,10 @@ const data = [
     "https://battlecats.miraheze.org/wiki/White_Butler_Vigler_(Uber_Rare_Cat)",
     "Yuletide Nurse",
     "https://battlecats.miraheze.org/wiki/Yuletide_Nurse_(Uber_Rare_Cat)",
+    "Li'l Valkyrie Dark",
+    "https://battlecats.miraheze.org/wiki/Li%27l_Valkyrie_Dark_(Uber_Rare_Cat)",
+    "Li'l Vakyrie",
+    "https://battlecats.miraheze.org/wiki/Li%27l_Valkyrie_(Uber_Rare_Cat)",
 ];
 exports.default = data;
 

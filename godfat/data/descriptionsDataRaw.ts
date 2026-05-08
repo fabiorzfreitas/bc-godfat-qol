@@ -611,10 +611,6 @@ const data: string[] = [
 
   "https://battlecats.miraheze.org/wiki/Netherworld_Nymph_Lunacia_(Uber_Rare_Cat)",
 
-  "Jack Hammer",
-
-  "https://battlecats.miraheze.org/wiki/Jack_Hammer_(Uber_Rare_Cat)",
-
   "Mighty Morta-Loncha",
 
   "https://battlecats.miraheze.org/wiki/Mighty_Morta-Loncha_(Uber_Rare_Cat)",
@@ -806,6 +802,14 @@ const data: string[] = [
   "Yuletide Nurse",
 
   "https://battlecats.miraheze.org/wiki/Yuletide_Nurse_(Uber_Rare_Cat)",
+
+  "Li'l Valkyrie Dark",
+
+  "https://battlecats.miraheze.org/wiki/Li%27l_Valkyrie_Dark_(Uber_Rare_Cat)",
+
+  "Li'l Vakyrie",
+
+  "https://battlecats.miraheze.org/wiki/Li%27l_Valkyrie_(Uber_Rare_Cat)",
 
 ];
 
