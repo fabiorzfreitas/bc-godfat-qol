@@ -2,7 +2,7 @@
 // @name        Battle Cats GodFat QoL Tools (Fork)
 // @description Injects a lot of useful information to bc.godfat.org seed tracker
 // @namespace   https://github.com/fabiorzfreitas/bc-godfat-qol
-// @version     2.12.7
+// @version     2.13.0
 // @match       https://bc.godfat.org/*
 // @author      fabiorzfreitas
 // @updateURL   https://github.com/fabiorzfreitas/bc-godfat-qol/raw/refs/heads/master/dist/godfat.user.js
@@ -2285,7 +2285,7 @@ exports.tierListRaw = [
         "Ban-8 - Catman",
         "Ban-9 - Mekako",
         "Ban-10 - Heaven",
-        "Ban-11 Axel",
+        "Ban-11 - Axel",
         "Ban-12 - Cyclops",
     ],
     [
@@ -2336,7 +2336,7 @@ exports.tierListRaw = [
         "Ban-6 - Deale",
         "Ban-7 - Vega",
         "Ban-8 - Sidomi",
-        "Ban-9 Tomoe",
+        "Ban-9 - Tomoe",
         "Ban-10 - Verbena",
     ],
     [

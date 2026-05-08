@@ -167,7 +167,7 @@ export const tierListRaw: string[][] = [
     "Ban-8 - Catman",
     "Ban-9 - Mekako",
     "Ban-10 - Heaven",
-    "Ban-11 Axel",
+    "Ban-11 - Axel",
     "Ban-12 - Cyclops",
   ],
 
@@ -222,7 +222,7 @@ export const tierListRaw: string[][] = [
     "Ban-6 - Deale",
     "Ban-7 - Vega",
     "Ban-8 - Sidomi",
-    "Ban-9 Tomoe",
+    "Ban-9 - Tomoe",
     "Ban-10 - Verbena",
   ],
 
