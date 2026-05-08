@@ -571,26 +571,6 @@ const data: string[] = [
 
   "https://battlecats.miraheze.org/wiki/Goddess_of_Light_Sirius_(Uber_Rare_Cat)",
 
-  "SOL DAE ROKKER",
-
-  "https://battlecats.miraheze.org/wiki/SOL_DAE_ROKKER_(Uber_Rare_Cat)",
-
-  "Kenshin Himura",
-
-  "https://battlecats.miraheze.org/wiki/Kenshin_Himura_(Uber_Rare_Cat)",
-
-  "Sanosuke Sagara",
-
-  "https://battlecats.miraheze.org/wiki/Sanosuke_Sagara_(Uber_Rare_Cat)",
-
-  "Aoshi Shinomori",
-
-  "https://battlecats.miraheze.org/wiki/Aoshi_Shinomori_(Uber_Rare_Cat)",
-
-  "Hajime Saito",
-
-  "https://battlecats.miraheze.org/wiki/Hajime_Saito_(Uber_Rare_Cat)",
-
   "Trixi the Merc",
 
   "https://battlecats.miraheze.org/wiki/Trixi_the_Merc_(Uber_Rare_Cat)",
@@ -598,10 +578,6 @@ const data: string[] = [
   "Music Fest Thundia",
 
   "https://battlecats.miraheze.org/wiki/Music_Fest_Thundia_(Uber_Rare_Cat)",
-
-  "Taitenki",
-
-  "https://battlecats.miraheze.org/wiki/Taitenki_(Uber_Rare_Cat)",
 
   "Pumpkin Sodom",
 
@@ -614,10 +590,6 @@ const data: string[] = [
   "Winter General Kaihime",
 
   "https://battlecats.miraheze.org/wiki/Winter_General_Kaihime_(Uber_Rare_Cat)",
-
-  "Madoka Cat & Homura",
-
-  "https://battlecats.miraheze.org/wiki/Madoka_Cat_&_Homura_(Uber_Rare_Cat)",
 
   "Celestial Child Luna",
 
@@ -639,22 +611,6 @@ const data: string[] = [
 
   "https://battlecats.miraheze.org/wiki/Netherworld_Nymph_Lunacia_(Uber_Rare_Cat)",
 
-  "Baki Hanma",
-
-  "https://battlecats.miraheze.org/wiki/Baki_Hanma_(Uber_Rare_Cat)",
-
-  "Retsu Kaioh",
-
-  "https://battlecats.miraheze.org/wiki/Retsu_Kaioh_(Uber_Rare_Cat)",
-
-  "Kaoru Hanayama",
-
-  "https://battlecats.miraheze.org/wiki/Kaoru_Hanayama_(Uber_Rare_Cat)",
-
-  "Katsumi Orochi",
-
-  "https://battlecats.miraheze.org/wiki/Katsumi_Orochi_(Uber_Rare_Cat)",
-
   "Jack Hammer",
 
   "https://battlecats.miraheze.org/wiki/Jack_Hammer_(Uber_Rare_Cat)",
@@ -663,22 +619,6 @@ const data: string[] = [
 
   "https://battlecats.miraheze.org/wiki/Mighty_Morta-Loncha_(Uber_Rare_Cat)",
 
-  "Sonic",
-
-  "https://battlecats.miraheze.org/wiki/Sonic_(Uber_Rare_Cat)",
-
-  "Tails",
-
-  "https://battlecats.miraheze.org/wiki/Tails_(Uber_Rare_Cat)",
-
-  "Knuckles",
-
-  "https://battlecats.miraheze.org/wiki/Knuckles_(Uber_Rare_Cat)",
-
-  "Shadow",
-
-  "https://battlecats.miraheze.org/wiki/Shadow_(Uber_Rare_Cat)",
-
   "Agent Staal",
 
   "https://battlecats.miraheze.org/wiki/Agent_Staal_(Uber_Rare_Cat)",
@@ -686,10 +626,6 @@ const data: string[] = [
   "Victorious Skanda",
 
   "https://battlecats.miraheze.org/wiki/Victorious_Skanda_(Uber_Rare_Cat)",
-
-  "Mass Production EVA",
-
-  "https://battlecats.miraheze.org/wiki/Mass_Production_EVA_(Uber_Rare_Cat)",
 
   "Komori",
 
@@ -703,14 +639,6 @@ const data: string[] = [
 
   "https://battlecats.miraheze.org/wiki/Sorceress_Sidmi_(Uber_Rare_Cat)",
 
-  "Cammy",
-
-  "https://battlecats.miraheze.org/wiki/Cammy_(Uber_Rare_Cat)",
-
-  "Juri",
-
-  "https://battlecats.miraheze.org/wiki/Juri_(Uber_Rare_Cat)",
-
   "Raclesa",
 
   "https://battlecats.miraheze.org/wiki/Raclesa_(Uber_Rare_Cat)",
@@ -718,34 +646,6 @@ const data: string[] = [
   "Squire Luno",
 
   "https://battlecats.miraheze.org/wiki/Squire_Luno_(Uber_Rare_Cat)",
-
-  "Tanjiro Kamado",
-
-  "https://battlecats.miraheze.org/wiki/Tanjiro_Kamado_(Uber_Rare_Cat)",
-
-  "Nezuko Kamado",
-
-  "https://battlecats.miraheze.org/wiki/Nezuko_Kamado_(Uber_Rare_Cat)",
-
-  "Zenitsu Agatsuma",
-
-  "https://battlecats.miraheze.org/wiki/Zenitsu_Agatsuma_(Uber_Rare_Cat)",
-
-  "Inosuke Hashibira",
-
-  "https://battlecats.miraheze.org/wiki/Inosuke_Hashibira_(Uber_Rare_Cat)",
-
-  "Giyu Tomioka",
-
-  "https://battlecats.miraheze.org/wiki/Giyu_Tomioka_(Uber_Rare_Cat)",
-
-  "Shinobu Kocho",
-
-  "https://battlecats.miraheze.org/wiki/Shinobu_Kocho_(Uber_Rare_Cat)",
-
-  "Kyojuro Rengoku",
-
-  "https://battlecats.miraheze.org/wiki/Kyojuro_Rengoku_(Uber_Rare_Cat)",
 
   "Fuma Kotaro",
 
