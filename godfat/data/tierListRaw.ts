@@ -221,7 +221,7 @@ export const tierListRaw: string[][] = [
     "Ban-5 - Reika",
     "Ban-6 - Deale",
     "Ban-7 - Vega",
-    "Ban-8 - Sidomi",
+    "Ban-8 - Sidmi",
     "Ban-9 - Tomoe",
     "Ban-10 - Verbena",
   ],
