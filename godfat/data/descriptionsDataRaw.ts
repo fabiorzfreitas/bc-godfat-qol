@@ -805,11 +805,11 @@ const data: string[] = [
 
   "Li'l Valkyrie Dark",
 
-  "https://battlecats.miraheze.org/wiki/Li%27l_Valkyrie_Dark_(Uber_Rare_Cat)",
+  "https://battlecats.miraheze.org/wiki/Li'l_Valkyrie_Dark_(Uber_Rare_Cat)",
 
-  "Li'l Vakyrie",
+  "Li'l Valkyrie",
 
-  "https://battlecats.miraheze.org/wiki/Li%27l_Valkyrie_(Uber_Rare_Cat)",
+  "https://battlecats.miraheze.org/wiki/Li'l_Valkyrie_(Uber_Rare_Cat)",
 
 ];
 

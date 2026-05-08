@@ -2,7 +2,7 @@
 // @name        Battle Cats GodFat QoL Tools (Fork)
 // @description Injects a lot of useful information to bc.godfat.org seed tracker
 // @namespace   https://github.com/fabiorzfreitas/bc-godfat-qol
-// @version     2.13.6
+// @version     2.13.7
 // @match       https://bc.godfat.org/*
 // @author      fabiorzfreitas
 // @updateURL   https://github.com/fabiorzfreitas/bc-godfat-qol/raw/refs/heads/master/dist/godfat.user.js
@@ -83,8 +83,8 @@ class DescriptionData {
             "Kat-A-Pult": "Mighty Kat-A-Pult",
             "Klay": "Warlock and Pierre",
             "Kotaro": "Fuma Kotaro",
-            "Li'l Valkyrie Dark": "Lil Valkyrie Dark",
-            "Li'l Valkyrie": "Lil Valkyrie",
+            "Lil Valkyrie Dark": "Li'l Valkyrie Dark",
+            "Lil Valkyrie": "Li'l Valkyrie",
             "Lilith": "Lilith Cat",
             "Lovestruck Demon": "Lovestruck Lesser Demon",
             "Luna": "Celestial Child Luna",
@@ -1723,9 +1723,9 @@ const data = [
     "Yuletide Nurse",
     "https://battlecats.miraheze.org/wiki/Yuletide_Nurse_(Uber_Rare_Cat)",
     "Li'l Valkyrie Dark",
-    "https://battlecats.miraheze.org/wiki/Li%27l_Valkyrie_Dark_(Uber_Rare_Cat)",
-    "Li'l Vakyrie",
-    "https://battlecats.miraheze.org/wiki/Li%27l_Valkyrie_(Uber_Rare_Cat)",
+    "https://battlecats.miraheze.org/wiki/Li'l_Valkyrie_Dark_(Uber_Rare_Cat)",
+    "Li'l Valkyrie",
+    "https://battlecats.miraheze.org/wiki/Li'l_Valkyrie_(Uber_Rare_Cat)",
 ];
 exports.default = data;
 
