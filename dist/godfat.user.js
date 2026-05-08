@@ -2,7 +2,7 @@
 // @name        Battle Cats GodFat QoL Tools (Fork)
 // @description Injects a lot of useful information to bc.godfat.org seed tracker
 // @namespace   https://github.com/fabiorzfreitas/bc-godfat-qol
-// @version     2.12.2
+// @version     2.12.3
 // @match       https://bc.godfat.org/*
 // @author      fabiorzfreitas
 // @updateURL   https://github.com/fabiorzfreitas/bc-godfat-qol/raw/refs/heads/master/dist/godfat.user.js
@@ -1862,6 +1862,8 @@ const data = [
     "https://battlecats.miraheze.org/wiki/Count_Yukimura_(Uber_Rare_Cat)",
     "Emperor Cat",
     "https://battlecats.miraheze.org/wiki/Emperor_Cat_(Uber_Rare_Cat)",
+    "Dogumaru",
+    "https://battlecats.miraheze.org/wiki/Dogumaru_(Special_Cat)",
     "First-Love Myrcia",
     "https://battlecats.miraheze.org/wiki/First-Love_Myrcia_(Uber_Rare_Cat)",
     "Floral Kalisa",
@@ -1878,6 +1880,8 @@ const data = [
     "https://battlecats.miraheze.org/wiki/Kaguya_of_the_Coast_(Uber_Rare_Cat)",
     "Keiji Claus",
     "https://battlecats.miraheze.org/wiki/Keiji_Claus_(Uber_Rare_Cat)",
+    "Li'l Nyandam",
+    "https://battlecats.miraheze.org/wiki/Li'l_Nyandam_(Special_Cat)",
     "Lilin",
     "https://battlecats.miraheze.org/wiki/Lilin_(Uber_Rare_Cat)",
     "Lilith Cat",
@@ -3142,7 +3146,7 @@ class DescriptionData {
             "Bikiniluga": "Summerluga",
             "Bride Balaluga": "Betrothed Balaluga",
             "Butler Vigler": "White Butler Vigler",
-            "Cat God 2": "Cat God the Great",
+            "Cat God": "Cat God the Great",
             "Chocoladite": "Sweet Aphrodite",
             "Coast Kaguya": "Kaguya of the Coast",
             "Coastal Kanna": "Coastal Explorer Kanna",

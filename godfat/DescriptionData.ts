@@ -21,7 +21,7 @@ export default class DescriptionData {
     "Bikiniluga": "Summerluga",
     "Bride Balaluga": "Betrothed Balaluga",
     "Butler Vigler": "White Butler Vigler",
-    "Cat God 2": "Cat God the Great",
+    "Cat God": "Cat God the Great",
     "Chocoladite": "Sweet Aphrodite",
     "Coast Kaguya": "Kaguya of the Coast",
     "Coastal Kanna": "Coastal Explorer Kanna",

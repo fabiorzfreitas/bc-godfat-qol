@@ -797,6 +797,10 @@ const data: string[] = [
 
   "https://battlecats.miraheze.org/wiki/Emperor_Cat_(Uber_Rare_Cat)",
 
+  "Dogumaru",
+
+  "https://battlecats.miraheze.org/wiki/Dogumaru_(Special_Cat)",
+
   "First-Love Myrcia",
 
   "https://battlecats.miraheze.org/wiki/First-Love_Myrcia_(Uber_Rare_Cat)",
@@ -828,6 +832,10 @@ const data: string[] = [
   "Keiji Claus",
 
   "https://battlecats.miraheze.org/wiki/Keiji_Claus_(Uber_Rare_Cat)",
+
+  "Li'l Nyandam",
+
+  "https://battlecats.miraheze.org/wiki/Li'l_Nyandam_(Special_Cat)",
 
   "Lilin",
 
