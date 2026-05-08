@@ -1,5 +1,5 @@
 import { NpChartItems } from "./data/npChartRaw";
-import DescriptionData from "./DescriptionData";
+import DescriptionData from "./descriptionData";
 
 export default class TierList {
   descriptionData: DescriptionData;

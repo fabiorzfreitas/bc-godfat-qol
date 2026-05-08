@@ -605,17 +605,9 @@ const data: string[] = [
 
   "https://battlecats.miraheze.org/wiki/Gunduros_(Uber_Rare_Cat)",
 
-  "Spirit (Gunduros)",
-
-  "https://battlecats.miraheze.org/wiki/Spirit_(Gunduros)_(Uber_Rare_Cat)",
-
   "Dynasaurus Cat",
 
   "https://battlecats.miraheze.org/wiki/Dynasaurus_Cat_(Uber_Rare_Cat)",
-
-  "Spirit (Dynasaurus)",
-
-  "https://battlecats.miraheze.org/wiki/Spirit_(Dynasaurus)_(Uber_Rare_Cat)",
 
   "Taitenki",
 
@@ -625,10 +617,6 @@ const data: string[] = [
 
   "https://battlecats.miraheze.org/wiki/Hanasaka_Cat_(Uber_Rare_Cat)",
 
-  "Spirit (Cherry)",
-
-  "https://battlecats.miraheze.org/wiki/Spirit_(Cherry)_(Uber_Rare_Cat)",
-
   "Pumpkin Sodom",
 
   "https://battlecats.miraheze.org/wiki/Pumpkin_Sodom_(Uber_Rare_Cat)",
@@ -636,10 +624,6 @@ const data: string[] = [
   "Mech Patrol Axel",
 
   "https://battlecats.miraheze.org/wiki/Mech_Patrol_Axel_(Uber_Rare_Cat)",
-
-  "Spirit (Axel)",
-
-  "https://battlecats.miraheze.org/wiki/Spirit_(Axel)_(Uber_Rare_Cat)",
 
   "Winter General Kaihime",
 
@@ -656,10 +640,6 @@ const data: string[] = [
   "Mamoluga",
 
   "https://battlecats.miraheze.org/wiki/Mamoluga_(Uber_Rare_Cat)",
-
-  "Spirit (Mamoluga)",
-
-  "https://battlecats.miraheze.org/wiki/Spirit_(Mamoluga)_(Uber_Rare_Cat)",
 
   "Koneko",
 
@@ -697,10 +677,6 @@ const data: string[] = [
 
   "https://battlecats.miraheze.org/wiki/Mighty_Morta-Loncha_(Uber_Rare_Cat)",
 
-  "Spirit (Gunhauzer)",
-
-  "https://battlecats.miraheze.org/wiki/Spirit_(Gunhauzer)_(Uber_Rare_Cat)",
-
   "Sonic",
 
   "https://battlecats.miraheze.org/wiki/Sonic_(Uber_Rare_Cat)",
@@ -725,10 +701,6 @@ const data: string[] = [
 
   "https://battlecats.miraheze.org/wiki/Victorious_Skanda_(Uber_Rare_Cat)",
 
-  "Spirit (Skanda)",
-
-  "https://battlecats.miraheze.org/wiki/Spirit_(Skanda)_(Uber_Rare_Cat)",
-
   "Mass Production EVA",
 
   "https://battlecats.miraheze.org/wiki/Mass_Production_EVA_(Uber_Rare_Cat)",
@@ -737,25 +709,13 @@ const data: string[] = [
 
   "https://battlecats.miraheze.org/wiki/Komori_(Uber_Rare_Cat)",
 
-  "Spirit (Komori)",
-
-  "https://battlecats.miraheze.org/wiki/Spirit_(Komori)_(Uber_Rare_Cat)",
-
   "Seaside Pegasa",
 
   "https://battlecats.miraheze.org/wiki/Seaside_Pegasa_(Uber_Rare_Cat)",
 
-  "Spirit (Seaside Pegasa)",
-
-  "https://battlecats.miraheze.org/wiki/Spirit_(Seaside_Pegasa)_(Uber_Rare_Cat)",
-
   "Sorceress Sidmi",
 
   "https://battlecats.miraheze.org/wiki/Sorceress_Sidmi_(Uber_Rare_Cat)",
-
-  "Spirit (Sidmi)",
-
-  "https://battlecats.miraheze.org/wiki/Spirit_(Sidmi)_(Uber_Rare_Cat)",
 
   "Cammy",
 
@@ -765,21 +725,13 @@ const data: string[] = [
 
   "https://battlecats.miraheze.org/wiki/Juri_(Uber_Rare_Cat)",
 
-  "Raclesa the Lioness ",
+  "Raclesa",
 
-  "https://battlecats.miraheze.org/wiki/Raclesa_the_Lioness__(Uber_Rare_Cat)",
+  "https://battlecats.miraheze.org/wiki/Raclesa_(Uber_Rare_Cat)",
 
   "Squire Luno",
 
   "https://battlecats.miraheze.org/wiki/Squire_Luno_(Uber_Rare_Cat)",
-
-  "Spirit (Luno)",
-
-  "https://battlecats.miraheze.org/wiki/Spirit_(Luno)_(Uber_Rare_Cat)",
-
-  "Spirit (Lunos)",
-
-  "https://battlecats.miraheze.org/wiki/Spirit_(Lunos)_(Uber_Rare_Cat)",
 
   "Tanjiro Kamado",
 
@@ -811,7 +763,163 @@ const data: string[] = [
 
   "Fuma Kotaro",
 
-  "https://battlecats.miraheze.org/wiki/Fuma_Kotaro_(Uber_Rare_Cat)"
+  "https://battlecats.miraheze.org/wiki/Fuma_Kotaro_(Uber_Rare_Cat)",
+
+  "Betrothed Balaluga",
+
+  "https://battlecats.miraheze.org/wiki/Betrothed_Balaluga_(Uber_Rare_Cat)",
+
+  "Blooming Kamukura",
+
+  "https://battlecats.miraheze.org/wiki/Blooming_Kamukura_(Uber_Rare_Cat)",
+
+  "Bunny & Canard",
+
+  "https://battlecats.miraheze.org/wiki/Bunny_&_Canard_(Uber_Rare_Cat)",
+
+  "Cake Machine",
+
+  "https://battlecats.miraheze.org/wiki/Cake_Machine_(Uber_Rare_Cat)",
+
+  "Chronos the Bride",
+
+  "https://battlecats.miraheze.org/wiki/Chronos_the_Bride_(Uber_Rare_Cat)",
+
+  "Coastal Explorer Kanna",
+
+  "https://battlecats.miraheze.org/wiki/Coastal_Explorer_Kanna_(Uber_Rare_Cat)",
+
+  "Count Yukimura",
+
+  "https://battlecats.miraheze.org/wiki/Count_Yukimura_(Uber_Rare_Cat)",
+
+  "Emperor Cat",
+
+  "https://battlecats.miraheze.org/wiki/Emperor_Cat_(Uber_Rare_Cat)",
+
+  "First-Love Myrcia",
+
+  "https://battlecats.miraheze.org/wiki/First-Love_Myrcia_(Uber_Rare_Cat)",
+
+  "Floral Kalisa",
+
+  "https://battlecats.miraheze.org/wiki/Floral_Kalisa_(Uber_Rare_Cat)",
+
+  "Frosty Kai",
+
+  "https://battlecats.miraheze.org/wiki/Frosty_Kai_(Uber_Rare_Cat)",
+
+  "Frozen Rose Cat",
+
+  "https://battlecats.miraheze.org/wiki/Frozen_Rose_Cat_(Uber_Rare_Cat)",
+
+  "Hallowindy",
+
+  "https://battlecats.miraheze.org/wiki/Hallowindy_(Uber_Rare_Cat)",
+
+  "Holy Coppermine",
+
+  "https://battlecats.miraheze.org/wiki/Holy_Coppermine_(Uber_Rare_Cat)",
+
+  "Kaguya of the Coast",
+
+  "https://battlecats.miraheze.org/wiki/Kaguya_of_the_Coast_(Uber_Rare_Cat)",
+
+  "Keiji Claus",
+
+  "https://battlecats.miraheze.org/wiki/Keiji_Claus_(Uber_Rare_Cat)",
+
+  "Lilin",
+
+  "https://battlecats.miraheze.org/wiki/Lilin_(Uber_Rare_Cat)",
+
+  "Lilith Cat",
+
+  "https://battlecats.miraheze.org/wiki/Lilith_Cat_(Uber_Rare_Cat)",
+
+  "Lovestruck Lesser Demon",
+
+  "https://battlecats.miraheze.org/wiki/Lovestruck_Lesser_Demon_(Uber_Rare_Cat)",
+
+  "Midsummer Rabbit",
+
+  "https://battlecats.miraheze.org/wiki/Midsummer_Rabbit_(Uber_Rare_Cat)",
+
+  "Night Beach Lilin",
+
+  "https://battlecats.miraheze.org/wiki/Night_Beach_Lilin_(Uber_Rare_Cat)",
+
+  "Rabbit Satoru",
+
+  "https://battlecats.miraheze.org/wiki/Rabbit_Satoru_(Uber_Rare_Cat)",
+
+  "Reindeer Terun",
+
+  "https://battlecats.miraheze.org/wiki/Reindeer_Terun_(Uber_Rare_Cat)",
+
+  "Santa Kuu",
+
+  "https://battlecats.miraheze.org/wiki/Santa_Kuu_(Uber_Rare_Cat)",
+
+  "Seabreeze Coppermine",
+
+  "https://battlecats.miraheze.org/wiki/Seabreeze_Coppermine_(Uber_Rare_Cat)",
+
+  "Seashore Kai",
+
+  "https://battlecats.miraheze.org/wiki/Seashore_Kai_(Uber_Rare_Cat)",
+
+  "Skull Rider Vars",
+
+  "https://battlecats.miraheze.org/wiki/Skull_Rider_Vars_(Uber_Rare_Cat)",
+
+  "Snow Angel Twinstars",
+
+  "https://battlecats.miraheze.org/wiki/Snow_Angel_Twinstars_(Uber_Rare_Cat)",
+
+  "Spooky Thundia",
+
+  "https://battlecats.miraheze.org/wiki/Spooky_Thundia_(Uber_Rare_Cat)",
+
+  "Springtime Kenshin",
+
+  "https://battlecats.miraheze.org/wiki/Springtime_Kenshin_(Uber_Rare_Cat)",
+
+  "Squirtgun Saki",
+
+  "https://battlecats.miraheze.org/wiki/Squirtgun_Saki_(Uber_Rare_Cat)",
+
+  "Summerluga",
+
+  "https://battlecats.miraheze.org/wiki/Summerluga_(Uber_Rare_Cat)",
+
+  "Sweet Aphrodite",
+
+  "https://battlecats.miraheze.org/wiki/Sweet_Aphrodite_(Uber_Rare_Cat)",
+
+  "Sweet Love Mekako",
+
+  "https://battlecats.miraheze.org/wiki/Sweet_Love_Mekako_(Uber_Rare_Cat)",
+
+  "Tropical Kalisa",
+
+  "https://battlecats.miraheze.org/wiki/Tropical_Kalisa_(Uber_Rare_Cat)",
+
+  "Waverider Kuu",
+
+  "https://battlecats.miraheze.org/wiki/Waverider_Kuu_(Uber_Rare_Cat)",
+
+  "White Butler Vigler",
+
+  "https://battlecats.miraheze.org/wiki/White_Butler_Vigler_(Uber_Rare_Cat)",
+
+  "Wolfchild Deale",
+
+  "https://battlecats.miraheze.org/wiki/Wolfchild_Deale_(Uber_Rare_Cat)",
+
+  "Yuletide Nurse",
+
+  "https://battlecats.miraheze.org/wiki/Yuletide_Nurse_(Uber_Rare_Cat)",
 
 ];
 
