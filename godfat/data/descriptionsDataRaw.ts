@@ -153,8 +153,6 @@ const data: string[] = [
 
   "Vars - A generic backliner that’s outclassed by Ururun in general usage, but carries decent procs against blacks and relics, with relic knockback + slow being a notable ability for early UL stages and can act as an early version of Uril. Decreases in value over the course of the game once Uril is acquired and true formed.",
   
-  "https://battlecats.miraheze.org/wiki/Vars_(Uber_Rare_Cat)",
-
   // NOTE: PATCH added link as a new line
   "https://battlecats.miraheze.org/wiki/Vars_(Uber_Rare_Cat)",
 
