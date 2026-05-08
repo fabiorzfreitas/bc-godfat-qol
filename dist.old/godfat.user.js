@@ -2,7 +2,7 @@
 // @name        Battle Cats GodFat QoL Tools (Fork)
 // @description Injects a lot of useful information to bc.godfat.org seed tracker
 // @namespace   https://github.com/fabiorzfreitas/bc-godfat-qol
-// @version     2.12.4
+// @version     2.12.3
 // @match       https://bc.godfat.org/*
 // @author      fabiorzfreitas
 // @updateURL   https://github.com/fabiorzfreitas/bc-godfat-qol/raw/refs/heads/master/dist/godfat.user.js
@@ -41,105 +41,6 @@ class Banners {
 exports.default = Banners;
 
 },{}],2:[function(require,module,exports){
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-class DescriptionData {
-    constructor() {
-        this.fullNames = [];
-        this.nameToFullName = {
-            "Siege": "Mighty Kat-A-Pult",
-            "Ice": "Ice Cat",
-            "Issun": "Issun Boshi",
-            "Prof Abyss": "Doktor Heaven",
-            "Shishilan": "Togeluga",
-            "Ushi": "Ushiwakamaru",
-            "Emperor": "Emperor Cat",
-            "Akuma": "Akuma",
-            "Dartanyan": "D'artanyan",
-            "Sirius": "Goddess of Light Sirius",
-            "Amazing Catman": "The Amazing Catman",
-            "Angel Twinstars": "Snow Angel Twinstars",
-            "Aquablaster Saki": "Squirtgun Saki",
-            "Arctic Cat": "Arctic Bloom Cat",
-            "Axel": "Mech Patrol Axel",
-            "Bahamut": "Bahamut Cat",
-            "Bikiniluga": "Summerluga",
-            "Bride Balaluga": "Betrothed Balaluga",
-            "Butler Vigler": "White Butler Vigler",
-            "Cat God": "Cat God the Great",
-            "Chocoladite": "Sweet Aphrodite",
-            "Coast Kaguya": "Kaguya of the Coast",
-            "Coastal Kanna": "Coastal Explorer Kanna",
-            "Dark Luna": "Netherworld Nymph Lunacia",
-            "Dark Lunos": "Lone Moon Lunos",
-            "Darwin": "Master of Selection Darvin",
-            "Doron": "Elder Mask Doron",
-            "Everbloom Kamukura": "Blooming Kamukura",
-            "Filibuster": "Filibuster Cat X",
-            "Gunhauzer": "Mighty Morta-Loncha",
-            "Hermit": "Hermit Cat",
-            "Idi": "Idi:N",
-            "Jagando": "Jagando Jr.",
-            "Kat-A-Pult": "Mighty Kat-A-Pult",
-            "Klay": "Warlock and Pierre",
-            "Kotaro": "Fuma Kotaro",
-            "Lilith": "Lilith Cat",
-            "Lovestruck Demon": "Lovestruck Lesser Demon",
-            "Luna": "Celestial Child Luna",
-            "Lunos": "Squire Luno",
-            "Luza": "Ancient Egg: N000",
-            "Mecha Bun": "Mecha-Bun",
-            "Mekako,": "Mekako Saionji",
-            "Mina": "Red Riding Mina",
-            "Moonshade Kaworu": "Kaworu & Cat",
-            "Music Thundia": "Music Fest Thundia",
-            "Naala": "Elder Beast Naala",
-            "Newton": "Master of Logic Newton",
-            "Night Lilin": "Night Beach Lilin",
-            "Nova": "Master of Life Dr. Nova",
-            "Phonoa": "Child of Destiny Phono",
-            "Psychoduck": "Bunny & Canard",
-            "Sidmi": "Sorceress Sidmi",
-            "Skanda": "Victorious Skanda",
-            "Skull Vars": "Skull Rider Vars",
-            "Socrates": "Master of Mind Soractes",
-            "Blizana": "Bliza",
-            "Tropical Kalisa": "",
-            "Uril": "Master Uril",
-            "Urs": "Urs & Fenrir",
-            "Ururun": "Ururun Wolf",
-            "Valkyrie": "Valkyrie Cat",
-            "Winter Kaihime": "Winter General Kaihime",
-            "Yulala": "Masked Yulala"
-        };
-    }
-    parse(data) {
-        const names = [];
-        for (const index in data) {
-            const item = data[index];
-            if (parseInt(index) % 2 == 0) {
-                const name = item
-                    .replaceAll("’", "'")
-                    .split(" - ")[0]
-                    .replace(/\(.*?\)/, "") // The case for Busters
-                    .trim();
-                names.push(name);
-            }
-            else {
-                const [, realName] = item.match(new RegExp(".*/(.*)_\\(.*?\\)"));
-                this.fullNames.push(decodeURI(realName.replaceAll("_", " ")).replaceAll("’", "'"));
-            }
-        }
-        for (const index in names) {
-            this.nameToFullName[names[index]] = this.fullNames[index];
-            this.nameToFullName[this.fullNames[index]] = this.fullNames[index];
-        }
-        return this;
-    }
-}
-exports.default = DescriptionData;
-
-},{}],3:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 class HtmlInjector {
@@ -305,7 +206,7 @@ class HtmlInjector {
 }
 exports.default = HtmlInjector;
 
-},{}],4:[function(require,module,exports){
+},{}],3:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 class TierLabels {
@@ -379,7 +280,7 @@ class TierLabels {
 }
 exports.default = TierLabels;
 
-},{}],5:[function(require,module,exports){
+},{}],4:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 class TierList {
@@ -435,7 +336,7 @@ class TierList {
 }
 exports.default = TierList;
 
-},{}],6:[function(require,module,exports){
+},{}],5:[function(require,module,exports){
 "use strict";
 // curl https://onestoppress.com/api/allcats | jq '.sampledata | map(.rarity) | unique'
 Object.defineProperty(exports, "__esModule", { value: true });
@@ -458,7 +359,7 @@ class UnitsRarity {
 }
 exports.default = UnitsRarity;
 
-},{}],7:[function(require,module,exports){
+},{}],6:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 // Got from wiki with `scripts/banner-scraper.py` script;
@@ -1557,7 +1458,7 @@ const banners = [
 ];
 exports.default = banners;
 
-},{}],8:[function(require,module,exports){
+},{}],7:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const data = [
@@ -2030,7 +1931,7 @@ const data = [
 ];
 exports.default = data;
 
-},{}],9:[function(require,module,exports){
+},{}],8:[function(require,module,exports){
 "use strict";
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
@@ -2048,7 +1949,7 @@ Object.defineProperty(exports, "descriptionsDataRaw", { enumerable: true, get: f
 var unitsRarityRaw_1 = require("./unitsRarityRaw");
 Object.defineProperty(exports, "unitsRarityRaw", { enumerable: true, get: function () { return __importDefault(unitsRarityRaw_1).default; } });
 
-},{"./bannersRaw":7,"./descriptionsDataRaw":8,"./npChartRaw":10,"./tierListRaw":11,"./unitsRarityRaw":12}],10:[function(require,module,exports){
+},{"./bannersRaw":6,"./descriptionsDataRaw":7,"./npChartRaw":9,"./tierListRaw":10,"./unitsRarityRaw":11}],9:[function(require,module,exports){
 "use strict";
 // from NP Chart
 // https://imgur.com/a/np-charts-9rAfl93
@@ -2124,7 +2025,7 @@ const npChart = {
 };
 exports.default = npChart;
 
-},{}],11:[function(require,module,exports){
+},{}],10:[function(require,module,exports){
 "use strict";
 // Wrap and join
 // ^v$hS"A,Jj
@@ -2419,7 +2320,7 @@ exports.tierListRaw = [
 ];
 exports.default = exports.tierListRaw.flat(1);
 
-},{}],12:[function(require,module,exports){
+},{}],11:[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = {
@@ -3219,6 +3120,105 @@ exports.default = {
     "Occultist Cat": "Special"
 };
 
+},{}],12:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+class DescriptionData {
+    constructor() {
+        this.fullNames = [];
+        this.nameToFullName = {
+            "Siege": "Mighty Kat-A-Pult",
+            "Ice": "Ice Cat",
+            "Issun": "Issun Boshi",
+            "Prof Abyss": "Doktor Heaven",
+            "Shishilan": "Togeluga",
+            "Ushi": "Ushiwakamaru",
+            "Emperor": "Emperor Cat",
+            "Akuma": "Akuma",
+            "Dartanyan": "D'artanyan",
+            "Sirius": "Goddess of Light Sirius",
+            "Amazing Catman": "The Amazing Catman",
+            "Angel Twinstars": "Snow Angel Twinstars",
+            "Aquablaster Saki": "Squirtgun Saki",
+            "Arctic Cat": "Arctic Bloom Cat",
+            "Axel": "Mech Patrol Axel",
+            "Bahamut": "Bahamut Cat",
+            "Bikiniluga": "Summerluga",
+            "Bride Balaluga": "Betrothed Balaluga",
+            "Butler Vigler": "White Butler Vigler",
+            "Cat God": "Cat God the Great",
+            "Chocoladite": "Sweet Aphrodite",
+            "Coast Kaguya": "Kaguya of the Coast",
+            "Coastal Kanna": "Coastal Explorer Kanna",
+            "Dark Luna": "Netherworld Nymph Lunacia",
+            "Dark Lunos": "Lone Moon Lunos",
+            "Darwin": "Master of Selection Darvin",
+            "Doron": "Elder Mask Doron",
+            "Everbloom Kamukura": "Blooming Kamukura",
+            "Filibuster": "Filibuster Cat X",
+            "Gunhauzer": "Mighty Morta-Loncha",
+            "Hermit": "Hermit Cat",
+            "Idi": "Idi:N",
+            "Jagando": "Jagando Jr.",
+            "Kat-A-Pult": "Mighty Kat-A-Pult",
+            "Klay": "Warlock and Pierre",
+            "Kotaro": "Fuma Kotaro",
+            "Lilith": "Lilith Cat",
+            "Lovestruck Demon": "Lovestruck Lesser Demon",
+            "Luna": "Celestial Child Luna",
+            "Lunos": "Squire Luno",
+            "Luza": "Ancient Egg: N000",
+            "Mecha Bun": "Mecha-Bun",
+            "Mekako,": "Mekako Saionji",
+            "Mina": "Red Riding Mina",
+            "Moonshade Kaworu": "Kaworu & Cat",
+            "Music Thundia": "Music Fest Thundia",
+            "Naala": "Elder Beast Naala",
+            "Newton": "Master of Logic Newton",
+            "Night Lilin": "Night Beach Lilin",
+            "Nova": "Master of Life Dr. Nova",
+            "Phonoa": "Child of Destiny Phono",
+            "Psychoduck": "Bunny & Canard",
+            "Sidmi": "Sorceress Sidmi",
+            "Skanda": "Victorious Skanda",
+            "Skull Vars": "Skull Rider Vars",
+            "Socrates": "Master of Mind Soractes",
+            "Blizana": "Bliza",
+            "Tropical Kalisa": "",
+            "Uril": "Master Uril",
+            "Urs": "Urs & Fenrir",
+            "Ururun": "Ururun Wolf",
+            "Valkyrie": "Valkyrie Cat",
+            "Winter Kaihime": "Winter General Kaihime",
+            "Yulala": "Masked Yulala"
+        };
+    }
+    parse(data) {
+        const names = [];
+        for (const index in data) {
+            const item = data[index];
+            if (parseInt(index) % 2 == 0) {
+                const name = item
+                    .replaceAll("’", "'")
+                    .split(" - ")[0]
+                    .replace(/\(.*?\)/, "") // The case for Busters
+                    .trim();
+                names.push(name);
+            }
+            else {
+                const [, realName] = item.match(new RegExp(".*/(.*)_\\(.*?\\)"));
+                this.fullNames.push(decodeURI(realName.replaceAll("_", " ")).replaceAll("’", "'"));
+            }
+        }
+        for (const index in names) {
+            this.nameToFullName[names[index]] = this.fullNames[index];
+            this.nameToFullName[this.fullNames[index]] = this.fullNames[index];
+        }
+        return this;
+    }
+}
+exports.default = DescriptionData;
+
 },{}],13:[function(require,module,exports){
 "use strict";
 var __importDefault = (this && this.__importDefault) || function (mod) {
@@ -3227,12 +3227,12 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const data_1 = require("./data");
 const TierList_1 = __importDefault(require("./TierList"));
-const DescriptionData_1 = __importDefault(require("./DescriptionData"));
+const descriptionData_1 = __importDefault(require("./descriptionData"));
 const Banners_1 = __importDefault(require("./Banners"));
 const TierLabels_1 = __importDefault(require("./TierLabels"));
 const UnitsRarity_1 = __importDefault(require("./UnitsRarity"));
 const HtmlInjector_1 = __importDefault(require("./HtmlInjector"));
-const descriptionData = new DescriptionData_1.default().parse(data_1.descriptionsDataRaw);
+const descriptionData = new descriptionData_1.default().parse(data_1.descriptionsDataRaw);
 const tierLabels = new TierLabels_1.default().npChart(data_1.npChartRaw);
 const tierList = new TierList_1.default(descriptionData)
     .parse(data_1.tierListRaw)
@@ -3247,4 +3247,4 @@ if (typeof window !== "undefined") {
     new HtmlInjector_1.default(tierList, unitToBanners, tierLabels, new UnitsRarity_1.default(data_1.unitsRarityRaw)).inject();
 }
 
-},{"./Banners":1,"./DescriptionData":2,"./HtmlInjector":3,"./TierLabels":4,"./TierList":5,"./UnitsRarity":6,"./data":9}]},{},[13]);
+},{"./Banners":1,"./HtmlInjector":2,"./TierLabels":3,"./TierList":4,"./UnitsRarity":5,"./data":8,"./descriptionData":12}]},{},[13]);

@@ -6,7 +6,7 @@ import {
   unitsRarityRaw,
 } from "./data";
 import TierList from "./TierList";
-import DescriptionData from "./descriptionData";
+import DescriptionData from "./DescriptionData";
 import Banners from "./Banners";
 import TierLabels from "./TierLabels";
 import UnitsRarity from "./UnitsRarity";
