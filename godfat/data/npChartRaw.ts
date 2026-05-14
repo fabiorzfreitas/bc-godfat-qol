@@ -13,6 +13,8 @@ const npChart: NpChartItems = {
     label: "Just sell them for NP",
     units: [
       "Witch Cat",
+      "Bath Cat",
+      "Delinquent Cat",
       "Fortune Teller Cat",
       "Thief Cat",
       "Cat Gunslinger",
@@ -40,6 +42,8 @@ const npChart: NpChartItems = {
       "Driller Cat",
       "Cat Base Mini",
       "Apple Cat",
+      "Cutter Cat",
+      "Mitter Saw Cat",
     ],
   },
   maybe: {
