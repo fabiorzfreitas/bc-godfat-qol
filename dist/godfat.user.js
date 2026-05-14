@@ -2,7 +2,7 @@
 // @name        Battle Cats GodFat QoL Tools (Fork)
 // @description Injects a lot of useful information to bc.godfat.org seed tracker
 // @namespace   https://github.com/fabiorzfreitas/bc-godfat-qol
-// @version     2.13.9
+// @version     2.13.10
 // @match       https://bc.godfat.org/*
 // @author      fabiorzfreitas
 // @updateURL   https://github.com/fabiorzfreitas/bc-godfat-qol/raw/refs/heads/master/dist/godfat.user.js
@@ -1755,8 +1755,6 @@ const npChart = {
         label: "Just sell them for NP",
         units: [
             "Witch Cat",
-            "Bath Cat",
-            "Delinquent Cat",
             "Fortune Teller Cat",
             "Thief Cat",
             "Cat Gunslinger",
@@ -1784,8 +1782,12 @@ const npChart = {
             "Driller Cat",
             "Cat Base Mini",
             "Apple Cat",
+            "Bath Cat",
+            "Delinquent Cat",
             "Cutter Cat",
             "Mitter Saw Cat",
+            "Swordsman Cat",
+            "Nerd Cat",
         ],
     },
     maybe: {
