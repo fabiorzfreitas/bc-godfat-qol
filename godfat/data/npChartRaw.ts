@@ -43,7 +43,7 @@ const npChart: NpChartItems = {
       "Bath Cat",
       "Delinquent Cat",
       "Cutter Cat",
-      "Mitter Saw Cat",
+      "Miter Saw Cat",
       "Swordsman Cat",
       "Nerd Cat",
     ],
