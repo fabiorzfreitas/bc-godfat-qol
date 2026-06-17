@@ -347,7 +347,7 @@ const data: string[] = [
 
   "https://battlecats.miraheze.org/wiki/Mighty_Aethur_Ltd._(Uber_Rare_Cat)",
 
-  "Deth Troy - An incredibly powerful multi purpose nuker and combo unit with massive damage against 3 traits: aku, zombie, and angel. He carries very strong DPS against all 3 traits while having a surprisingly fast attack rate for a nuker, giving him a strong mix of high damage per hit and consistent damage uptime on the target. Also has good HP and above average range for a backline nuker. Most important part of this unit is the combo, with a medium attack up combo with only 1 other unit, easily being the best attack combo in the game and one of the best filler combos for it’s +15% attack boost for a mere 2 slots, while still reaping the benefit of using Troy himself. As a unit, he suffers from his low speed and long foreswing, which can be particularly troublesome since his fast attack rate constantly triggers his animation, but is still maneuverable. Troy is also very good at Mario Kart Wii.",
+  "Diabolosa - An incredibly powerful multi purpose nuker and combo unit with massive damage against 3 traits: aku, zombie, and angel. He carries very strong DPS against all 3 traits while having a surprisingly fast attack rate for a nuker, giving him a strong mix of high damage per hit and consistent damage uptime on the target. Also has good HP and above average range for a backline nuker. Most important part of this unit is the combo, with a medium attack up combo with only 1 other unit, easily being the best attack combo in the game and one of the best filler combos for it’s +15% attack boost for a mere 2 slots, while still reaping the benefit of using Troy himself. As a unit, he suffers from his low speed and long foreswing, which can be particularly troublesome since his fast attack rate constantly triggers his animation, but is still maneuverable. Troy is also very good at Mario Kart Wii.",
 
   "https://battlecats.miraheze.org/wiki/Mighty_Deth-Troy-R_(Uber_Rare_Cat)",
 
@@ -487,7 +487,7 @@ const data: string[] = [
 
   "https://battlecats.miraheze.org/wiki/Shadow_Gao_(Uber_Rare_Cat)",
 
-  "Mitama - One of the best ubers in the game with her extremely broken amounts of HP, mass amount of KB to reposition/ rebound, strong damage overtime, and slow procs against traited with nearly 100% uptime. Stunts the advance of almost any traited enemy to be killed overtime or synergize beautifully with other attackers be it ranged or melee. Only weakness is traitless.",
+  "Miko Mitama - One of the best ubers in the game with her extremely broken amounts of HP, mass amount of KB to reposition/ rebound, strong damage overtime, and slow procs against traited with nearly 100% uptime. Stunts the advance of almost any traited enemy to be killed overtime or synergize beautifully with other attackers be it ranged or melee. Only weakness is traitless.",
 
   "https://battlecats.miraheze.org/wiki/Miko_Mitama_(Uber_Rare_Cat)",
 
@@ -615,7 +615,7 @@ const data: string[] = [
 
   "https://battlecats.miraheze.org/wiki/Mighty_Morta-Loncha_(Uber_Rare_Cat)",
 
-  "Agent Staal",
+  "Staal",
 
   "https://battlecats.miraheze.org/wiki/Agent_Staal_(Uber_Rare_Cat)",
 
@@ -647,7 +647,7 @@ const data: string[] = [
 
   "https://battlecats.miraheze.org/wiki/Fuma_Kotaro_(Uber_Rare_Cat)",
 
-  "Betrothed Balaluga",
+  "Bride Balaluga",
 
   "https://battlecats.miraheze.org/wiki/Betrothed_Balaluga_(Uber_Rare_Cat)",
 
@@ -663,7 +663,7 @@ const data: string[] = [
 
   "https://battlecats.miraheze.org/wiki/Cake_Machine_(Uber_Rare_Cat)",
 
-  "Chronos the Bride",
+  "Bride Chronos",
 
   "https://battlecats.miraheze.org/wiki/Chronos_the_Bride_(Uber_Rare_Cat)",
 
@@ -678,10 +678,6 @@ const data: string[] = [
   "Emperor Cat",
 
   "https://battlecats.miraheze.org/wiki/Emperor_Cat_(Legend_Rare_Cat)",
-
-  "Dogumaru",
-
-  "https://battlecats.miraheze.org/wiki/Dogumaru_(Special_Cat)",
 
   "First-Love Myrcia",
 
@@ -714,10 +710,6 @@ const data: string[] = [
   "Keiji Claus",
 
   "https://battlecats.miraheze.org/wiki/Keiji_Claus_(Uber_Rare_Cat)",
-
-  "Li'l Nyandam",
-
-  "https://battlecats.miraheze.org/wiki/Li'l_Nyandam_(Special_Cat)",
 
   "Lilith Cat",
 
@@ -783,7 +775,7 @@ const data: string[] = [
 
   "https://battlecats.miraheze.org/wiki/Sweet_Aphrodite_(Uber_Rare_Cat)",
 
-  "Sweet Love Mekako",
+  "Sweet Mekako",
 
   "https://battlecats.miraheze.org/wiki/Sweet_Love_Mekako_(Uber_Rare_Cat)",
 
@@ -810,6 +802,10 @@ const data: string[] = [
   "Li'l Valkyrie",
 
   "https://battlecats.miraheze.org/wiki/Li'l_Valkyrie_(Uber_Rare_Cat)",
+
+  "Nyanko-Oh",
+
+  "https://battlecats.miraheze.org/wiki/Giga-Nyan_Rex_(Uber_Rare_Cat)",
 
 ];
 

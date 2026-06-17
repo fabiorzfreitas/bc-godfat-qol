@@ -12,17 +12,17 @@ export const tierListRaw: string[][] = [
   [
     "SSS - Dark Lunos, Lunos",
     "SS - Luna, Cosmo (UF), Kasa Jizo (UF), Balrog, Lasvoss, Izanagi, Dark Phono, Dark Kasli, Phonoa, Ganesha (UT), Dioramos (UF)",
-    "S+ - Baby Cats (UF), Yukimura, Keiji (UT), Vigler (UF), Akira (UT), Amaterasu (UT), Chronos, Poseidon, Anubis (UT), Furiluga, Dark Luna, Miko Mitama",
+    "S+ - Baby Cat (UF), Yukimura, Keiji (UT), Vigler (UF), Akira (UT), Amaterasu (UT), Chronos, Poseidon, Anubis (UT), Furiluga, Dark Luna, Miko Mitama",
     "S - Keiji, Kai (UT), Thundia (UF), Kuu (UT), Windy (UF), Vigler, Hayabusa (UT), Amaterasu, Ganesha, Hades (UT), Hades, Tecoluga, Kaoluga, Sirius, Emma, Trixi, D’arktanyan",
-    "S- - Baby Cats, Cat Clan Heroes (UF), Daliasan, Thunder Jack, Lucifer, Kat-A-Pult (UF), Diabolosa, Staal",
+    "S- - Baby Cat, Cat Clan Heroes (UF), Daliasan, Thunder Jack, Lucifer, Kat-A-Pult (UF), Diabolosa, Staal",
     "A+ - Kaihime (UF), Shingen (UT), Kalisa, Issun, Saki (UT), Saki, Warlock (UT), Skanda, Aphrodite (UT), Gravi, Koneko, Shadow Gao, Count Yukimura",
     "A - Ice Cat (UT), Satoru, Kenshin (UF), Kai, Coppermine (UT), Lilin, Hevijak, Kasa Jizo, Ushiwakamaru, Sarukani, Kintaro, Kaguya (UF), Aphrodite, Gaia, Drednot (UF), Bomburr (UF), Aethur, Thermae, Muu, Mizli (UF), Nanaho, Kanna, Vega, Himeyuri (UT), Himeyuri, Gao, Kasli, Izanami, Aquablaster Saki, Coastal Kanna",
-    "A- - Hanzo, Momotaro (UT), Momotaro, White Rabbit (UF), Catman, Psychoduck, Aset, Balaluga, Asiluga, Garu, Dark Izu, Gothic Mitama, Dark Garu, Cake Machine",
-    "B+ - Terun, Raclesa, Ganglion, Babel, Gunduros, Kachi Kachi (UT), Warlock, Mekako (UT), Drednot, Morta Launcher, Rekon Korps, Lumina, Ruri (UT), D’artanyan, Izu, Floral Kalisa, Rabbit Satoru, Butler Vigler, Amazing Catman",
+    "A- - Hanzo, Momotaro (UT), Momotaro, White Rabbit (UF), Catman, Psychoduck, Aset, Balaluga, Asiluga, Garu, Dark Izu, Dark Mitama, Dark Garu, Cake Machine",
+    "B+ - Terun, Raclesa, Ganglion, Babel, Gunduros, Kachi Kachi (UT), Warlock, Mekako (UT), Drednot, Gunhauzer, Rekon Korps, Lumina, Ruri (UT), D’artanyan, Izu, Floral Kalisa, Rabbit Satoru, Butler Vigler, Amazing Catman",
     "B - Momoco, Tengu, Dynasaurus, Akechi, Shingen, Amakusa, Kenshin, Jeanne, Myrcia, Windy, Vornado, Cosmo, Shitakiri, Gamereon (UT), Gamereon, Doktor Heaven, Axel, Hayabusa, Mekako, Bora (UF), Bora, Yamii, Ruri, Reika, Pai-Pai, Rei, Skull Vars",
     "B- - Cat Machine (UT), Cat Machine, Musashi, Yoshimoto (UT), Sphinx Korps, Deale (UT), Sakura Sonic (UF), Emperor",
     "C+ - Twinstars (UT), Kachi Kachi, Cyclops, Sidmi, Mamoluga, Empress, Midsummer Rabbit, Music Thundia",
-    "C - Ice Cat, Paladin (UT), Paladin, Yoshimoto, Oda (UF), Twinstars, Sodom (UT), Raiden (UT), Dioramos, Anubis, Bomburr, Volta, Aer (UF), Deale, Shishilan, Kubiluga, Sakura Sonic, Li’l Valk Dark, Li’l Valk, Chocoladite, Tropical Kalisa, Bride Chronos, Yuletide Nurse",
+    "C - Ice Cat, Paladin (UT), Paladin, Yoshimoto, Oda (UF), Twinstars, Sodom (UT), Raiden (UT), Dioramos, Anubis, Bomburr, Volta, Aer (UF), Deale, Shishilan, Kubiluga, Sakura Sonic, Lil Valk Dark, Lil Valk, Chocoladite, Tropical Kalisa, Bride Chronos, Yuletide Nurse",
     "C- - Kotaro, Thundia, Vars (UT), Legeluga, Keiji Claus",
     "D+ - Kaihime, Kaguya, Hanasaka, Tekachi, Nekoluga (UT), Springtime Kenshin",
     "D - Nurse (UT), Masamune (UT), Sodom, Raiden, Gladios, Vars, Akira, Blizana, Mizli, Tomoe, Sweet Mekako, Seashore Kai, Seaside Pegasa, Hallowindy, Pumpkin Sodom, Bikiniluga, Winter Kaihime, Frosty Kai",
@@ -32,7 +32,7 @@ export const tierListRaw: string[][] = [
     "E- - Nurse, Masamune, Megidora, Spooky Thundia",
     "F+ - Komori, Nobiluga, Beach Lilin, Lilith",
     "F - Coppermine, Envanz, Aer",
-    "F- - Oda, Papaluga, Nyanko-Oh, First Love Myrcia, Seabreeze Coppermine, Waverider Kuu, Bride Balaluga, Santa Kuu, Holy Coppermine",
+    "F- - Oda, Papaluga, Nyanko-Oh, First-Love Myrcia, Seabreeze Coppermine, Waverider Kuu, Bride Balaluga, Santa Kuu, Holy Coppermine",
   ],
 
   [
@@ -77,7 +77,7 @@ export const tierListRaw: string[][] = [
     "Fest-6 - Luna",
     "Fest-7 - Phonoa",
     "Fest-8 - Dark Luna",
-    "Fest-9 - Mitama",
+    "Fest-9 - Miko Mitama",
     "Fest-10 - Trixi",
     "Fest-11 - D’arktanyan",
     "Fest-12 - Shadow Gao",
@@ -90,7 +90,7 @@ export const tierListRaw: string[][] = [
     "Fest-19 - Izu",
     "Fest-20 - Dark Mitama",
     "Fest-21 - Dark Garu",
-    "Fest-22 - Agent Staal",
+    "Fest-22 - Staal",
     "Fest-23 - Empress",
     "Fest-24 - Lil Valkyrie Dark",
     "Fest-25 - Lil Valkyrie",
@@ -205,7 +205,7 @@ export const tierListRaw: string[][] = [
 
   [
     "Ban-1 - Siege Engine",
-    "Ban-2 - Deth Troy",
+    "Ban-2 - Diabolosa",
     "Ban-3 - Bomburr",
     "Ban-4 - Aethur",
     "Ban-5 - Thermae",
@@ -268,7 +268,7 @@ export const tierListRaw: string[][] = [
 
   [
     "Ban-1 - Chocoladite",
-    "Ban-2 - Sweet Love Mekako",
+    "Ban-2 - Sweet Mekako",
     "Ban-3 - First-Love Myrcia",
   ],
 
@@ -303,8 +303,8 @@ export const tierListRaw: string[][] = [
     "Ban-1 - Cake Machine",
     "Ban-2 - Butler Vigler",
     "Ban-3 - Amazing Catman",
-    "Ban-4 - Chronos the Bride",
-    "Ban-5 - Arctic Cat",
+    "Ban-4 - Bride Chronos",
+    "Ban-5 - Arctic Bloom",
     "Ban-6 - Lovestruck Demon",
     "Ban-7 - Bride Balaluga",
   ],
