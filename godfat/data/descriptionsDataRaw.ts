@@ -543,10 +543,6 @@ const data: string[] = [
 
   "https://battlecats.miraheze.org/wiki/Izanami_of_Dusk_(Legend_Rare_Cat)",
 
-  "Black Zeus (Bikkuriman Collab) - Extremely powerful LD attacker/ nuker with great general stats and insanely powerful niche. Has very good base stats with great HP, average KB count, good standing range, a wide LD attack, and strong DPS for his range that puts him to similar general offensive output to Nanaho. His main ability is insane damage vs traitless which puts his effective DPS higher than even Epicfest ubers like Shadow Gao on top of having the benefit of pierce due to being an LD unit. Has average survivability and long foreswing which can give an opportunity for an aggressive pusher to infiltrate his blindspot.",
-
-  "https://battlecats.miraheze.org/wiki/Black_Zeus_(Legend_Rare_Cat)",
-
   "Gundros - High ranged heavy nuker with super backliner range and gargantuan damage against aliens and blacks. Deals one of the highest singular nuke damage against his targets compared to most other alien and black nukers while offering high effective DPS. However, his damage is insanely limited due to his poor mobility, long attack rate, and carrying the third longest foreswing out of any cat unit. This forces Gundros to be used in a highly risky play style known as bait-and-punish where you lure enemies into his range and nuke them. This causes Gundros to have bad flexibility and very poor synergy with other units, but in return has the potential to completely obliterate a targeted alien/ black, with alien being the more relevant target for his build.",
 
   "https://battlecats.miraheze.org/wiki/Gunduros_(Uber_Rare_Cat)",

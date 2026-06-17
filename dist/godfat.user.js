@@ -2,7 +2,7 @@
 // @name        Battle Cats GodFat QoL Tools (Fork)
 // @description Injects a lot of useful information to bc.godfat.org seed tracker
 // @namespace   https://github.com/fabiorzfreitas/bc-godfat-qol
-// @version     2.14
+// @version     2.14.2
 // @match       https://bc.godfat.org/*
 // @author      fabiorzfreitas
 // @updateURL   https://github.com/fabiorzfreitas/bc-godfat-qol/raw/refs/heads/master/dist/godfat.user.js
@@ -1576,8 +1576,6 @@ const data = [
     "https://battlecats.miraheze.org/wiki/Daybreaker_Izanagi_(Legend_Rare_Cat)",
     "Izanami - Extremely powerful anti traitless with huge burst damage from savage blow and wide AOE with staggering LD and area attacks. Has high bulk and operates similarly to Naala akin to normal Izanagi’s role. Good bulk, high damage, and high pierce leads to insanely good anti traitless matchups and becomes easily usable on stages with any sort of frontliner. Immunities such as surge, curse, and freeze immune allow for better traitless matchups and total destruction against traitless surge bosses. Lacks wave immunity and is unfortunately complete shit in general stats making her only usable within traitless niche, harboring one of the worst base LD DPS out of any uber/ legend rare.",
     "https://battlecats.miraheze.org/wiki/Izanami_of_Dusk_(Legend_Rare_Cat)",
-    "Black Zeus (Bikkuriman Collab) - Extremely powerful LD attacker/ nuker with great general stats and insanely powerful niche. Has very good base stats with great HP, average KB count, good standing range, a wide LD attack, and strong DPS for his range that puts him to similar general offensive output to Nanaho. His main ability is insane damage vs traitless which puts his effective DPS higher than even Epicfest ubers like Shadow Gao on top of having the benefit of pierce due to being an LD unit. Has average survivability and long foreswing which can give an opportunity for an aggressive pusher to infiltrate his blindspot.",
-    "https://battlecats.miraheze.org/wiki/Black_Zeus_(Legend_Rare_Cat)",
     "Gundros - High ranged heavy nuker with super backliner range and gargantuan damage against aliens and blacks. Deals one of the highest singular nuke damage against his targets compared to most other alien and black nukers while offering high effective DPS. However, his damage is insanely limited due to his poor mobility, long attack rate, and carrying the third longest foreswing out of any cat unit. This forces Gundros to be used in a highly risky play style known as bait-and-punish where you lure enemies into his range and nuke them. This causes Gundros to have bad flexibility and very poor synergy with other units, but in return has the potential to completely obliterate a targeted alien/ black, with alien being the more relevant target for his build.",
     "https://battlecats.miraheze.org/wiki/Gunduros_(Uber_Rare_Cat)",
     "Pai-Pai (Red Busters) - An extremely powerful anti-Red specialist who carries high defense and offense against Red enemies. She has a mix of high HP, huge damage per hit, and tons of DPS thanks to the combination of massive damage and resistance against Reds. She can counter nearly every Red enemy thanks to her high effective stats, especially combined with her strong mobility through her cooldown and movement speed. She is mediocre as a generalist and suffers from some slight speed clipping issues.",
