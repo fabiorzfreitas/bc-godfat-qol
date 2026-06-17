@@ -22,7 +22,7 @@ export const tierListRaw: string[][] = [
     "B - Momoco, Tengu, Dynasaurus, Akechi, Shingen, Amakusa, Kenshin, Jeanne, Myrcia, Windy, Vornado, Cosmo, Shitakiri, Gamereon (UT), Gamereon, Doktor Heaven, Axel, Hayabusa, Mekako, Bora (UF), Bora, Yamii, Ruri, Reika, Pai-Pai, Rei, Skull Vars",
     "B- - Cat Machine (UT), Cat Machine, Musashi, Yoshimoto (UT), Sphinx Korps, Deale (UT), Sakura Sonic (UF), Emperor",
     "C+ - Twinstars (UT), Kachi Kachi, Cyclops, Sidmi, Mamoluga, Empress, Midsummer Rabbit, Music Thundia",
-    "C - Ice Cat, Paladin (UT), Paladin, Yoshimoto, Oda (UF), Twinstars, Sodom (UT), Raiden (UT), Dioramos, Anubis, Bomburr, Volta, Aer (UF), Deale, Shishilan, Kubiluga, Sakura Sonic, Lil Valk Dark, Lil Valk, Chocoladite, Tropical Kalisa, Bride Chronos, Yuletide Nurse",
+    "C - Ice Cat, Paladin (UT), Paladin, Yoshimoto, Oda (UF), Twinstars, Sodom (UT), Raiden (UT), Dioramos, Anubis, Bomburr, Volta, Aer (UF), Deale, Shishilan, Kubiluga, Sakura Sonic, Lil Valkyrie Dark, Lil Valkyrie, Chocoladite, Tropical Kalisa, Bride Chronos, Yuletide Nurse",
     "C- - Kotaro, Thundia, Vars (UT), Legeluga, Keiji Claus",
     "D+ - Kaihime, Kaguya, Hanasaka, Tekachi, Nekoluga (UT), Springtime Kenshin",
     "D - Nurse (UT), Masamune (UT), Sodom, Raiden, Gladios, Vars, Akira, Blizana, Mizli, Tomoe, Sweet Mekako, Seashore Kai, Seaside Pegasa, Hallowindy, Pumpkin Sodom, Bikiniluga, Winter Kaihime, Frosty Kai",
@@ -156,6 +156,7 @@ export const tierListRaw: string[][] = [
     "Ban-10 - Gladios",
     "Ban-11 - Kamukura",
     "Ban-12 - Megidora",
+    "Ban 13 - Vornado",
   ],
 
   [
@@ -294,7 +295,7 @@ export const tierListRaw: string[][] = [
     "Ban-7 - Seaside Pegasa",
     "Ban-8 - Bikiniluga",
     "Ban-9 - Coast Kaguya",
-    "Ban-10 - Night Lilin",
+    "Ban-10 - Beach Lilin",
     "Ban-11 - Waverider Kuu",
     "Ban-12 - Seabreeze Coppermine",
   ],

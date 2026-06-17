@@ -807,6 +807,10 @@ const data: string[] = [
 
   "https://battlecats.miraheze.org/wiki/Giga-Nyan_Rex_(Uber_Rare_Cat)",
 
+  "Vornado",
+
+  "https://battlecats.miraheze.org/wiki/Vornado_(Uber_Rare_Cat)",
+
 ];
 
 export default data;
