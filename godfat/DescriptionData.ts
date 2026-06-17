@@ -5,7 +5,6 @@ export default class DescriptionData {
     "Siege": "Mighty Kat-A-Pult",
     "Ice": "Ice Cat",
     "Issun": "Issun Boshi",
-    "Prof Abyss": "Doktor Heaven",
     "Shishilan": "Togeluga",
     "Ushi": "Ushiwakamaru",
     "Emperor": "Emperor Cat",
@@ -28,7 +27,6 @@ export default class DescriptionData {
     "Everbloom Kamukura": "Blooming Kamukura",
     "Gunhauzer": "Mighty Morta-Loncha",
     "Kat-A-Pult": "Mighty Kat-A-Pult",
-    "Klay": "Warlock and Pierre",
     "Kotaro": "Fuma Kotaro",
     "Lil Valkyrie Dark": "Li'l Valkyrie Dark",
     "Lil Valkyrie": "Li'l Valkyrie",
@@ -52,8 +50,10 @@ export default class DescriptionData {
     "Sweet Mekako": "Sweet Love Mekako",
     "Arctic Bloom": "Frozen Rose Cat",
     "Beach Lilin": "Night Beach Lilin",
+    "Warlock": "Warlock and Pierre",
+    "Diabolosa": "Mighty Deth-Troy-R",
   };
-
+  
   parse(data: string[]): DescriptionData {
     const names = [];
 
