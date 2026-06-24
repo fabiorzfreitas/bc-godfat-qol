@@ -86,6 +86,7 @@ class DescriptionData {
             "Beach Lilin": "Night Beach Lilin",
             "Warlock": "Warlock and Pierre",
             "Diabolosa": "Mighty Deth-Troy-R",
+            "Amakusa": "Shiro Amakusa",
         };
     }
     parse(data) {

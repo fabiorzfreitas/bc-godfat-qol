@@ -2,7 +2,7 @@
 // @name        Battle Cats GodFat QoL Tools (Fork)
 // @description Injects a lot of useful information to bc.godfat.org seed tracker
 // @namespace   https://github.com/fabiorzfreitas/bc-godfat-qol
-// @version     2.14.2
+// @version     2.14.3
 // @match       https://bc.godfat.org/*
 // @author      fabiorzfreitas
 // @updateURL   https://github.com/fabiorzfreitas/bc-godfat-qol/raw/refs/heads/master/dist/godfat.user.js
@@ -97,6 +97,7 @@ class DescriptionData {
             "Beach Lilin": "Night Beach Lilin",
             "Warlock": "Warlock and Pierre",
             "Diabolosa": "Mighty Deth-Troy-R",
+            "Amakusa": "Shiro Amakusa",
         };
     }
     parse(data) {
