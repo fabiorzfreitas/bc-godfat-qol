@@ -807,6 +807,10 @@ const data: string[] = [
 
   "https://battlecats.miraheze.org/wiki/Vornado_(Uber_Rare_Cat)",
 
+  "Hanzo the Betrothed",
+
+  "https://battlecats.miraheze.org/wiki/Hanzo_the_Betrothed_(Uber_Rare_Cat)",
+
 ];
 
 export default data;

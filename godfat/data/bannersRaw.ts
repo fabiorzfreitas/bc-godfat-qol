@@ -300,12 +300,12 @@ const banners: Banner[] = [
     link: "https://battlecats.miraheze.org/wiki/June_Bride_(Gacha_Event)",
     units: [
       "Maeda Keiji",
-      "The Grateful Crane",
       "Graveflower Verbena",
       "Sea Serpent Daliasan",
       "Chronos the Bride",
       "Betrothed Balaluga",
       "Cake Machine",
+      "Hanzo the Betrothed",
     ],
   },
   {

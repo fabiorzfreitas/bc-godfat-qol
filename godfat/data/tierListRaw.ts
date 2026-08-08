@@ -272,32 +272,39 @@ export const tierListRaw: string[][] = [
     "Ban-4 - Springtime Kenshin",
     "Ban-5 - Blooming Kamukura",
   ],
-  
+
+  [
+    "Ban-1 - Coastal Kanna",
+    "Ban-2 - Midsummer Rabbit",
+    "Ban-3 - Music Thundia",
+    "Ban-4 - Tropical Kalisa",
+    "Ban-5 - Bikiniluga",
+    "Ban-6 - Coast Kaguya",
+  ],
+
   [
     "Ban-1 - Aquablaster Saki",
-    "Ban-2 - Coastal Kanna",
-    "Ban-3 - Midsummer Rabbit",
-    "Ban-4 - Music Thundia",
-    "Ban-5 - Tropical Kalisa",
-    "Ban-6 - Seashore Kai",
-    "Ban-7 - Seaside Pegasa",
-    "Ban-8 - Bikiniluga",
-    "Ban-9 - Coast Kaguya",
-    "Ban-10 - Beach Lilin",
-    "Ban-11 - Seabreeze Coppermine",
-    "Ban-12 - Waverider Kuu",
+    "Ban-2 - Seashore Kai",
+    "Ban-3 - Seaside Pegasa",
+    "Ban-4 - Beach Lilin",
+    "Ban-5 - Seabreeze Coppermine",
+    "Ban-6 - Waverider Kuu",
   ],
-  
+
+  [
+    "Ban-1 - Butler Vigler",
+    "Ban-2 - Amazing Catman",
+    "Ban-3 - Arctic Bloom",
+    "Ban-4 - Lovestruck Demon",
+  ],
+
   [
     "Ban-1 - Cake Machine",
-    "Ban-2 - Butler Vigler",
-    "Ban-3 - Amazing Catman",
-    "Ban-4 - Bride Chronos",
-    "Ban-5 - Arctic Bloom",
-    "Ban-6 - Lovestruck Demon",
-    "Ban-7 - Bride Balaluga",
+    "Ban-2 - Hanzo the Betrothed",
+    "Ban-3 - Bride Chronos",
+    "Ban-4 - Bride Balaluga",
   ],
-  
+
   [
     "Ban-1 - Count Yukimura",
     "Ban-2 - Skull Vars",
