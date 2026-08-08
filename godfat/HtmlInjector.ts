@@ -123,9 +123,13 @@ export default class HtmlInjector {
 
     const htmlTiers = tiers
       .map((tier) => this.tierLabels.findByTier(tier))
-      .map(({ tier, label }) => `<span title="${label}">[${tier}]</span>`);
+      .map(({ tier, label }) => {
+        const isSOrAbove = /^(SSS|SS|S\+|S-|S)(?:-|$)/.test(tier);
+        const className = isSOrAbove ? ' class="vtvz-top-tier-rank"' : '';
+        return `<span title="${label}"${className}>[${tier}]</span>`;
+      });
 
-    return `<sup><b>${htmlTiers.join(" ")}</b></sup>`;
+    return `<sup><b> ${htmlTiers.join(" ")}</b></sup>`;
   }
 
   renderBanners(unitName: string, isInline: boolean): string {
@@ -174,6 +178,11 @@ export default class HtmlInjector {
       .vtvz-super:not(.supa) {
         # border-top: 25px solid gold;
         background-color: gold !important;
+      }
+
+      .vtvz-top-tier-rank {
+        background-color: #000000 !important;
+        color: #ffffff !important;
       }
 
       .vtvz-rare {

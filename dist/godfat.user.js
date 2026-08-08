@@ -2,7 +2,7 @@
 // @name        Battle Cats GodFat QoL Tools (Fork)
 // @description Injects a lot of useful information to bc.godfat.org seed tracker
 // @namespace   https://github.com/fabiorzfreitas/bc-godfat-qol
-// @version     2.14.5
+// @version     2.15
 // @match       https://bc.godfat.org/*
 // @author      fabiorzfreitas
 // @updateURL   https://github.com/fabiorzfreitas/bc-godfat-qol/raw/refs/heads/master/dist/godfat.user.js
@@ -217,8 +217,12 @@ class HtmlInjector {
         }
         const htmlTiers = tiers
             .map((tier) => this.tierLabels.findByTier(tier))
-            .map(({ tier, label }) => `<span title="${label}">[${tier}]</span>`);
-        return `<sup><b>${htmlTiers.join(" ")}</b></sup>`;
+            .map(({ tier, label }) => {
+            const isSOrAbove = /^(SSS|SS|S\+|S-|S)(?:-|$)/.test(tier);
+            const className = isSOrAbove ? ' class="vtvz-top-tier-rank"' : '';
+            return `<span title="${label}"${className}>[${tier}]</span>`;
+        });
+        return `<sup><b> ${htmlTiers.join(" ")}</b></sup>`;
     }
     renderBanners(unitName, isInline) {
         const unitBanners = this.unitToBanners.asArray(unitName);
@@ -259,6 +263,11 @@ class HtmlInjector {
       .vtvz-super:not(.supa) {
         # border-top: 25px solid gold;
         background-color: gold !important;
+      }
+
+      .vtvz-top-tier-rank {
+        background-color: #000000 !important;
+        color: #ffffff !important;
       }
 
       .vtvz-rare {
