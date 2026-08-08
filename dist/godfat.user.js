@@ -2,7 +2,7 @@
 // @name        Battle Cats GodFat QoL Tools (Fork)
 // @description Injects a lot of useful information to bc.godfat.org seed tracker
 // @namespace   https://github.com/fabiorzfreitas/bc-godfat-qol
-// @version     2.14.4
+// @version     2.14.5
 // @match       https://bc.godfat.org/*
 // @author      fabiorzfreitas
 // @updateURL   https://github.com/fabiorzfreitas/bc-godfat-qol/raw/refs/heads/master/dist/godfat.user.js
@@ -1759,6 +1759,11 @@ const npChart = {
             "Gold Cat",
             "Cat Toaster",
             "Neneko",
+            "Gloomy Neneko",
+            "Sunny Neneko",
+            "Years-End Neneko",
+            "Easter Neneko",
+            "Valentine's Neneko",
             "Rich Cat III",
             "Sniper the Recruit",
             "Freshman Cat Jobs",
@@ -1772,6 +1777,17 @@ const npChart = {
             "Miter Saw Cat",
             "Swordsman Cat",
             "Nerd Cat",
+            "Brainwashed Cat",
+            "Brainwashed Tank Cat",
+            "Brainwashed Axe Cat",
+            "Brainwashed Gross Cat",
+            "Brainwashed Cow Cat",
+            "Brainwashed Bird Cat",
+            "Brainwashed Fish Cat",
+            "Brainwashed Lizard Cat",
+            "Brainwashed Titan Cat",
+            "Suntan Cat",
+            "Lifeguard Cats",
         ],
     },
     maybe: {
