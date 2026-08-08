@@ -2,7 +2,7 @@
 // @name        Battle Cats GodFat QoL Tools (Fork)
 // @description Injects a lot of useful information to bc.godfat.org seed tracker
 // @namespace   https://github.com/fabiorzfreitas/bc-godfat-qol
-// @version     2.14.3
+// @version     2.14.4
 // @match       https://bc.godfat.org/*
 // @author      fabiorzfreitas
 // @updateURL   https://github.com/fabiorzfreitas/bc-godfat-qol/raw/refs/heads/master/dist/godfat.user.js
@@ -747,12 +747,12 @@ const banners = [
         link: "https://battlecats.miraheze.org/wiki/June_Bride_(Gacha_Event)",
         units: [
             "Maeda Keiji",
-            "The Grateful Crane",
             "Graveflower Verbena",
             "Sea Serpent Daliasan",
             "Chronos the Bride",
             "Betrothed Balaluga",
             "Cake Machine",
+            "Hanzo the Betrothed",
         ],
     },
     {
@@ -1709,6 +1709,8 @@ const data = [
     "https://battlecats.miraheze.org/wiki/Giga-Nyan_Rex_(Uber_Rare_Cat)",
     "Vornado",
     "https://battlecats.miraheze.org/wiki/Vornado_(Uber_Rare_Cat)",
+    "Hanzo the Betrothed",
+    "https://battlecats.miraheze.org/wiki/Hanzo_the_Betrothed_(Uber_Rare_Cat)",
 ];
 exports.default = data;
 
@@ -2070,27 +2072,32 @@ exports.tierListRaw = [
         "Ban-5 - Blooming Kamukura",
     ],
     [
+        "Ban-1 - Coastal Kanna",
+        "Ban-2 - Midsummer Rabbit",
+        "Ban-3 - Music Thundia",
+        "Ban-4 - Tropical Kalisa",
+        "Ban-5 - Bikiniluga",
+        "Ban-6 - Coast Kaguya",
+    ],
+    [
         "Ban-1 - Aquablaster Saki",
-        "Ban-2 - Coastal Kanna",
-        "Ban-3 - Midsummer Rabbit",
-        "Ban-4 - Music Thundia",
-        "Ban-5 - Tropical Kalisa",
-        "Ban-6 - Seashore Kai",
-        "Ban-7 - Seaside Pegasa",
-        "Ban-8 - Bikiniluga",
-        "Ban-9 - Coast Kaguya",
-        "Ban-10 - Beach Lilin",
-        "Ban-11 - Seabreeze Coppermine",
-        "Ban-12 - Waverider Kuu",
+        "Ban-2 - Seashore Kai",
+        "Ban-3 - Seaside Pegasa",
+        "Ban-4 - Beach Lilin",
+        "Ban-5 - Seabreeze Coppermine",
+        "Ban-6 - Waverider Kuu",
+    ],
+    [
+        "Ban-1 - Butler Vigler",
+        "Ban-2 - Amazing Catman",
+        "Ban-3 - Arctic Bloom",
+        "Ban-4 - Lovestruck Demon",
     ],
     [
         "Ban-1 - Cake Machine",
-        "Ban-2 - Butler Vigler",
-        "Ban-3 - Amazing Catman",
-        "Ban-4 - Bride Chronos",
-        "Ban-5 - Arctic Bloom",
-        "Ban-6 - Lovestruck Demon",
-        "Ban-7 - Bride Balaluga",
+        "Ban-2 - Hanzo the Betrothed",
+        "Ban-3 - Bride Chronos",
+        "Ban-4 - Bride Balaluga",
     ],
     [
         "Ban-1 - Count Yukimura",
