@@ -86,7 +86,7 @@ class DescriptionData {
             "Beach Lilin": "Night Beach Lilin",
             "Warlock": "Warlock and Pierre",
             "Diabolosa": "Mighty Deth-Troy-R",
-            "Amakusa": "Shiro Amakusa",
+            "Amakusa": "Amakusa Shiro",
         };
     }
     parse(data) {
@@ -498,7 +498,7 @@ const banners = [
             "Uesugi Kenshin",
             "Imagawa Yoshimoto",
             "Narita Kaihime",
-            "Shiro Amakusa",
+            "Amakusa Shiro",
             "Hattori Hanzo",
             "Akechi Mitsuhide",
             "Fuma Kotaro",
@@ -1233,7 +1233,7 @@ const banners = [
             "Wrathful Poseidon",
             "Voli",
             "Kintaro",
-            "Shiro Amakusa",
+            "Amakusa Shiro",
             "Furiluga",
             "Cat Tengu",
             "High School Kingpin Riki",
@@ -2747,7 +2747,7 @@ exports.default = {
     "Kabuto Cat": "Special",
     "Kuwagata Cat": "Special",
     "Summoner Satoru": "Uber Rare",
-    "Shiro Amakusa": "Uber Super Rare",
+    "Amakusa Shiro": "Uber Super Rare",
     "Lilin": "Uber Super Rare",
     "Hevijak the Wicked": "Uber Super Rare",
     "Aku Researcher": "Rare",

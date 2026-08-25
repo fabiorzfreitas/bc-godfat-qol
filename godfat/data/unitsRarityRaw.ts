@@ -598,7 +598,7 @@ export default {
   "Kabuto Cat": "Special",
   "Kuwagata Cat": "Special",
   "Summoner Satoru": "Uber Rare",
-  "Shiro Amakusa": "Uber Super Rare",
+  "Amakusa Shiro": "Uber Super Rare",
   "Lilin": "Uber Super Rare",
   "Hevijak the Wicked": "Uber Super Rare",
   "Aku Researcher": "Rare",

@@ -52,7 +52,7 @@ export default class DescriptionData {
     "Beach Lilin": "Night Beach Lilin",
     "Warlock": "Warlock and Pierre",
     "Diabolosa": "Mighty Deth-Troy-R",
-    "Amakusa": "Shiro Amakusa",
+    "Amakusa": "Amakusa Shiro",
   };
   
   parse(data: string[]): DescriptionData {
