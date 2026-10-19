@@ -39,6 +39,7 @@ const banners: Banner[] = [
       "Dynasaurus Cat",
       "Wonder MOMOCO",
       "Cat Maid",
+      "Akane Tounji"
     ],
   },
   {

@@ -792,5 +792,6 @@ export default {
   "Fuma Kotaro": "Uber Super Rare",
   "Paperboy Cat": "Rare",
   "Killer Cowbird Cat": "Rare",
-  "Occultist Cat": "Special"
+  "Occultist Cat": "Special",
+  "Akane Tounji": "Uber Super Rare"
 }

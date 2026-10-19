@@ -29,7 +29,7 @@ export const tierListRaw: string[][] = [
     "D- - Cat Clan Heroes, Pegasa, Kamukura (UT), Kamukura, Megidora (UT), Zeus (UT), Snow Angel Twinstars, Reindeer Terun",
     "E+ - Kuu, Nekoluga, Blooming Kamukura, Coast Kaguya",
     "E - White Rabbit, Zeus, Kat-A-Pult, Verbena, Arctic Bloom, Lovestruck Demon",
-    "E- - Nurse, Masamune, Megidora, Spooky Thundia",
+    "E- - Nurse, Akane, Masamune, Megidora, Spooky Thundia",
     "F+ - Komori, Nobiluga, Beach Lilin, Lilith",
     "F - Coppermine, Envanz, Aer",
     "F- - Oda, Papaluga, Nyanko-Oh, First-Love Myrcia, Seabreeze Coppermine, Waverider Kuu, Bride Balaluga, Santa Kuu, Holy Coppermine",

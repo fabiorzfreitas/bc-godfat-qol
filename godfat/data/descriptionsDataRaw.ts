@@ -811,6 +811,10 @@ const data: string[] = [
 
   "https://battlecats.miraheze.org/wiki/Hanzo_the_Betrothed_(Uber_Rare_Cat)",
 
+  "Akane Tounji",
+
+  "https://battlecats.miraheze.org/wiki/Akane_Tounji_(Uber_Rare_Cat)",
+
 ];
 
 export default data;

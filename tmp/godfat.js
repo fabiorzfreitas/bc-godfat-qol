@@ -87,6 +87,7 @@ class DescriptionData {
             "Warlock": "Warlock and Pierre",
             "Diabolosa": "Mighty Deth-Troy-R",
             "Amakusa": "Amakusa Shiro",
+            "Akane Tounji": "Akane Tounji",
         };
     }
     parse(data) {
@@ -484,6 +485,7 @@ const banners = [
             "Dynasaurus Cat",
             "Wonder MOMOCO",
             "Cat Maid",
+            "Akane Tounji"
         ],
     },
     {
@@ -1709,6 +1711,8 @@ const data = [
     "https://battlecats.miraheze.org/wiki/Vornado_(Uber_Rare_Cat)",
     "Hanzo the Betrothed",
     "https://battlecats.miraheze.org/wiki/Hanzo_the_Betrothed_(Uber_Rare_Cat)",
+    "Akane Tounji",
+    "https://battlecats.miraheze.org/wiki/Akane_Tounji_(Uber_Rare_Cat)",
 ];
 exports.default = data;
 
@@ -1859,7 +1863,7 @@ exports.tierListRaw = [
         "D- - Cat Clan Heroes, Pegasa, Kamukura (UT), Kamukura, Megidora (UT), Zeus (UT), Snow Angel Twinstars, Reindeer Terun",
         "E+ - Kuu, Nekoluga, Blooming Kamukura, Coast Kaguya",
         "E - White Rabbit, Zeus, Kat-A-Pult, Verbena, Arctic Bloom, Lovestruck Demon",
-        "E- - Nurse, Masamune, Megidora, Spooky Thundia",
+        "E- - Nurse, Akane, Masamune, Megidora, Spooky Thundia",
         "F+ - Komori, Nobiluga, Beach Lilin, Lilith",
         "F - Coppermine, Envanz, Aer",
         "F- - Oda, Papaluga, Nyanko-Oh, First-Love Myrcia, Seabreeze Coppermine, Waverider Kuu, Bride Balaluga, Santa Kuu, Holy Coppermine",
@@ -2941,7 +2945,8 @@ exports.default = {
     "Fuma Kotaro": "Uber Super Rare",
     "Paperboy Cat": "Rare",
     "Killer Cowbird Cat": "Rare",
-    "Occultist Cat": "Special"
+    "Occultist Cat": "Special",
+    "Akane Tounji": "Uber Super Rare"
 };
 
 },{}],13:[function(require,module,exports){
