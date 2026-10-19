@@ -101,6 +101,7 @@ export const tierListRaw: string[][] = [
     "Ban-10 - Cat Machine",
     "Ban-11 - Paladin",
     "Ban-12 - Nurse",
+    "Ban-13 - Akane"
   ],
 
   [

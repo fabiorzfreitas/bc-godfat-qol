@@ -2,7 +2,7 @@
 // @name        Battle Cats GodFat QoL Tools (Fork)
 // @description Injects a lot of useful information to bc.godfat.org seed tracker
 // @namespace   https://github.com/fabiorzfreitas/bc-godfat-qol
-// @version     2.17
+// @version     2.17.2
 // @match       https://bc.godfat.org/*
 // @author      fabiorzfreitas
 // @updateURL   https://github.com/fabiorzfreitas/bc-godfat-qol/raw/refs/heads/master/dist/godfat.user.js
@@ -98,7 +98,7 @@ class DescriptionData {
             "Warlock": "Warlock and Pierre",
             "Diabolosa": "Mighty Deth-Troy-R",
             "Amakusa": "Amakusa Shiro",
-            "Akane Tounji": "Akane Tounji",
+            "Akane": "Akane Tounji",
         };
     }
     parse(data) {
@@ -1942,6 +1942,7 @@ exports.tierListRaw = [
         "Ban-10 - Cat Machine",
         "Ban-11 - Paladin",
         "Ban-12 - Nurse",
+        "Ban-13 - Akane"
     ],
     [
         "Ban-1 - Yukimura",

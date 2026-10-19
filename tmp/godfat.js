@@ -87,7 +87,7 @@ class DescriptionData {
             "Warlock": "Warlock and Pierre",
             "Diabolosa": "Mighty Deth-Troy-R",
             "Amakusa": "Amakusa Shiro",
-            "Akane Tounji": "Akane Tounji",
+            "Akane": "Akane Tounji",
         };
     }
     parse(data) {
@@ -1931,6 +1931,7 @@ exports.tierListRaw = [
         "Ban-10 - Cat Machine",
         "Ban-11 - Paladin",
         "Ban-12 - Nurse",
+        "Ban-13 - Akane"
     ],
     [
         "Ban-1 - Yukimura",

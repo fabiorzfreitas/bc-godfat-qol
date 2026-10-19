@@ -53,7 +53,7 @@ export default class DescriptionData {
     "Warlock": "Warlock and Pierre",
     "Diabolosa": "Mighty Deth-Troy-R",
     "Amakusa": "Amakusa Shiro",
-    "Akane Tounji": "Akane Tounji",
+    "Akane": "Akane Tounji",
   };
   
   parse(data: string[]): DescriptionData {
